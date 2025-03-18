@@ -1,0 +1,1 @@
+nohup python -u speagle.py --feature_path ../datasets/amazon_cn/UserFeature.txt --graph_path ../datasets/amazon_cn/J01Network.txt --train_csv ../datasets/amazon_cn/Training_Testing/5percent/train_5.csv --test_csv ../datasets/amazon_cn/Training_Testing/5percent/test_5.csv >> logs/speagle.log 2>&1 &

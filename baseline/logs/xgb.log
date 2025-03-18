@@ -1,0 +1,32 @@
+nohup: invalid option -- 'u'
+Try 'nohup --help' for more information.
+Namespace(attention_dropout=0.1, dropout=0.1, feature_path='../datasets/amazon_cn/UserFeature.txt', n_heads=8, n_layers=1, readout='mean', seed=42, test_csv='../datasets/amazon_cn/Training_Testing/5percent/test_5.csv', train_csv='../datasets/amazon_cn/Training_Testing/5percent/train_5.csv')
+     sample_index  label
+0              19      0
+1              25      0
+2              44      0
+3              53      0
+4              54      0
+..            ...    ...
+414          9341      0
+415          9369      0
+416          9376      1
+417          9386      1
+418          9400      1
+
+[419 rows x 2 columns]
+      sample_index  label
+0                1      0
+1                2      0
+2                3      0
+3                4      0
+4                5      0
+...            ...    ...
+7950          9420      0
+7951          9421      0
+7952          9422      0
+7953          9423      1
+7954          9424      0
+
+[7955 rows x 2 columns]
+F-measure: 0.7974, Recall: 0.7046, Precision: 0.9183

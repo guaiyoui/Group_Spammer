@@ -1,0 +1,2 @@
+The network.txt is too large to upload, please download from:
+https://ubcca-my.sharepoint.com/:t:/r/personal/leyao_tan_ubc_ca/Documents/Research/%5BFake%20Reviewer%20Community%5D/Network.txt?csf=1&web=1&e=rI5mgq 

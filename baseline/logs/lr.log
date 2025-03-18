@@ -1,0 +1,2 @@
+Namespace(attention_dropout=0.1, dropout=0.1, feature_path='../datasets/amazon_cn/UserFeature.txt', n_heads=8, n_layers=1, readout='mean', seed=42, test_csv='../datasets/amazon_cn/Training_Testing/5percent/test_5.csv', train_csv='../datasets/amazon_cn/Training_Testing/5percent/train_5.csv')
+F-measure: 0.5236, Recall: 0.3709, Precision: 0.8903

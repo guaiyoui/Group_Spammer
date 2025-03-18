@@ -1,0 +1,1 @@
+nohup python3 -u main.py >> ./logs/spammer_v3.txt 2>&1 &
