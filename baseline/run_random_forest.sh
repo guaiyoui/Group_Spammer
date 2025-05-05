@@ -1,0 +1,1 @@
+python -u random_forest.py --feature_path ../datasets/he_amazon/UserFeature.txt --train_csv ../datasets/he_amazon/Training_Testing/5percent/train_4.csv --test_csv ../datasets/he_amazon/Training_Testing/5percent/test_4.csv

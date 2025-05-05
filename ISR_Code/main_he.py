@@ -87,7 +87,7 @@ def initialization():
 
     # Read training file
     # train_path = os.path.join("dataset", "5percent", "train_4.csv")
-    train_path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/he_amazon/data/network/Training_Testing/5percent/train_4.csv"
+    train_path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/Group_Spammer/datasets/he_amazon/Training_Testing/5percent/train_4.csv"
     try:
         with open(train_path, "r") as fin1:
             train_lines = fin1.readlines()
@@ -117,7 +117,7 @@ def initialization():
 
     # Read test file
     # test_path = os.path.join("dataset", "5percent", "test_4.csv")
-    test_path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/he_amazon/data/network/Training_Testing/5percent/test_4.csv"
+    test_path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/Group_Spammer/datasets/he_amazon/Training_Testing/5percent/test_4.csv"
     try:
         with open(test_path, "r") as fin4:
             test_lines = fin4.readlines()
@@ -140,7 +140,7 @@ def initialization():
 
     # Read neighbor file (assumes file is sorted by userID)
     # neighbor_path = os.path.join("dataset", "jaccard0.2.txt")
-    neighbor_path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/he_amazon/data/network/J01Network.txt"
+    neighbor_path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/Group_Spammer/datasets/he_amazon/J01Network.txt"
     try:
         with open(neighbor_path, "r") as fin3:
             neighbor_lines = fin3.readlines()
@@ -591,6 +591,34 @@ def Output_to_File(k):
     except IOError:
         print(f"Could not write to {file_name}")
 
+def SaveResults():
+    output_path = "../detection_results/he_amazon/isr_predictions.txt"
+    tp = fn = fp = tn = 0
+    with open(output_path, "w") as fout:
+        fout.write("sample_index\tprediction\n")
+        for i in range(1, unLen + 1):
+            user = UnUPM[i]
+            if user.shill == -1:
+                if user.tempLab == 1 and UnLabels[i] == 1:
+                    tp += 1
+                if user.tempLab == 0 and UnLabels[i] == 1:
+                    fn += 1
+                if user.tempLab == 1 and UnLabels[i] == 0:
+                    fp += 1
+                if user.tempLab == 0 and UnLabels[i] == 0:
+                    tn += 1
+                fout.write(f"{i}\t{user.tempLab}\n")
+    
+    output_path_metrics = "../detection_results/he_amazon/isr_metrics.txt"
+
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+    f_measure = 2 * recall * precision / (recall + precision) if (recall + precision) > 0 else 0
+
+    with open(output_path_metrics, 'w') as f_out:
+        f_out.write(f"F-measure: {f_measure:.4f}\nRecall: {recall:.4f}\nPrecision: {precision:.4f}\n")
+    print(f"Saved evaluation metrics to {output_path_metrics}")
+
 # ----------------- Function: control -----------------
 def control(lambd, d):
     initialization()
@@ -604,6 +632,7 @@ def control(lambd, d):
         IterNum += 1
         print("Iteration Number:", IterNum, ", Loss:", Loss)
         Output_to_File(IterNum)
+        SaveResults()
 
 # ----------------- Main -----------------
 if __name__ == "__main__":

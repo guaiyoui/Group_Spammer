@@ -6,6 +6,7 @@ df = pd.read_csv("./ProductLabel.txt", delimiter=' ', header=None, names=['user_
 
 df['user_ID'] = np.arange(1, len(df) + 1)
 df = df[['user_ID', 'user_no', 'label']]
+# df['user_no'] = df['user_no']+1
 
 
 

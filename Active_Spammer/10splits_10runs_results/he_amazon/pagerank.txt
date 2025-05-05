@@ -1,0 +1,45 @@
+---------datetime: 2025-04-01 09:29:27.236427-----------
+Budget list: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170]
+learning rate: 0.01, epoch: 300, weight decay: 0.0005, hidden: 64
+50runs using seed.txt
+Test_macro_test_all_macro 0.6413
+Test_f1_test_all_macro 0.5984
+Test_macro_test_macro 0.6424
+Test_f1_test_macro 0.5999
+Average AL_Time: 0.03266310412436724s
+---------datetime: 2025-04-01 09:31:04.514587-----------
+Budget list: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170]
+learning rate: 0.01, epoch: 300, weight decay: 0.0005, hidden: 64
+50runs using seed.txt
+Test_macro_test_all_macro 0.6566
+Test_f1_test_all_macro 0.6026
+Test_macro_test_macro 0.6557
+Test_f1_test_macro 0.6015
+Average AL_Time: 0.03076969087123871s
+---------datetime: 2025-04-01 09:32:31.698899-----------
+Budget list: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170]
+learning rate: 0.01, epoch: 300, weight decay: 0.0005, hidden: 64
+50runs using seed.txt
+Test_macro_test_all_macro 0.6402
+Test_f1_test_all_macro 0.6056
+Test_macro_test_macro 0.6398
+Test_f1_test_macro 0.6052
+Average AL_Time: 0.03149999864399433s
+---------datetime: 2025-04-01 09:35:46.875648-----------
+Budget list: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170]
+learning rate: 0.01, epoch: 300, weight decay: 0.0005, hidden: 64
+50runs using seed.txt
+Test_macro_test_all_macro 0.6883
+Test_f1_test_all_macro 0.6318
+Test_macro_test_macro 0.6891
+Test_f1_test_macro 0.6332
+Average AL_Time: 0.027260608039796352s
+---------datetime: 2025-04-01 09:48:34.055360-----------
+Budget list: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170]
+learning rate: 0.01, epoch: 300, weight decay: 0.0005, hidden: 64
+50runs using seed.txt
+Test_macro_test_all_macro 0.6144
+Test_f1_test_all_macro 0.5086
+Test_macro_test_macro 0.6175
+Test_f1_test_macro 0.5128
+Average AL_Time: 0.029301472008228302s

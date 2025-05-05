@@ -129,8 +129,9 @@ def loss_function_subgraph_regularization(model, modularity_matrix, x, edge_inde
     
     return loss_cls + args.weight_loss_subgraph * loss_subgraph
 
-def loss_function_subgraph_regularization_v1(model, x, edge_index, train_labels, selected_nodes):
-    output = model(x, edge_index)
+def loss_function_subgraph_regularization_v1(model, modularity_matrix, x, edge_index, train_labels, selected_nodes):
+    
+    output, b_recon = model(modularity_matrix, x, edge_index)
     output_selected = output[selected_nodes, :]
     
     loss_cls = F.cross_entropy(output_selected, train_labels)
@@ -190,10 +191,15 @@ def train_GCN(model, modularity_matrix, adj, selected_nodes, val_nodes,
     best_acc_val = 0
     should_stop = False
     stopping_step = 0
+    patience = 150
 
     gamma = 2.0
     # print(f"the shape of the modularity matrix is {modularity_matrix.shape}")
     for epoch in range(epochs):
+
+        if should_stop:
+            print(f"Early stopping at epoch {epoch}")
+            break
 
         model.train()
         optimizer.zero_grad()
@@ -206,6 +212,8 @@ def train_GCN(model, modularity_matrix, adj, selected_nodes, val_nodes,
         # loss_train = loss_function_laplacian_regularization(output, train_labels, adj)
         # loss_train = loss_function_consistency_regularization(model, features, adj, train_labels, selected_nodes)
         loss_label = loss_function_subgraph_regularization(model, modularity_matrix, features, adj, train_labels, selected_nodes)
+        # loss_label = loss_function_subgraph_regularization_v1(model, modularity_matrix, features, adj, train_labels, selected_nodes)
+
 
         loss_reconstruction = model.compute_reconstruction_loss(modularity_matrix, b_recon)
         kl_loss = model.compute_kl_loss()
@@ -218,6 +226,24 @@ def train_GCN(model, modularity_matrix, adj, selected_nodes, val_nodes,
         loss_train = loss_label + args.weight_loss_reconstruction*loss_reconstruction + args.weight_kl_loss*kl_loss + args.weight_t_loss*t_loss
         loss_train.backward(retain_graph=True)
         optimizer.step()
+
+        # 计算验证集准确率
+        with torch.no_grad():
+            model.eval()
+            val_output, b_recon = model(modularity_matrix, features, edge_index=adj)
+            val_output = val_output[val_nodes, :]
+            # print(val_output)
+            val_acc = accuracy(val_output, val_labels)
+            val_acc, recall_val, precision_val = f1_isr(val_output, val_labels)
+        
+        # 早停逻辑
+        if val_acc > best_acc_val:
+            best_acc_val = val_acc
+            stopping_step = 0  # 重新计数
+        else:
+            stopping_step += 1
+            if stopping_step >= patience:
+                should_stop = True
         
 
     train_time = perf_counter() - t
@@ -228,9 +254,9 @@ def train_GCN(model, modularity_matrix, adj, selected_nodes, val_nodes,
         output = output[val_nodes, :]
         acc_val = accuracy(output, val_labels)
         micro_val, macro_val = f1(output, val_labels)
-        print('macro_val: {}'.format(macro_val))
+        # print('macro_val: {}'.format(macro_val))
         f1_val, recall_val, precision_val = f1_isr(output, val_labels)
-        print('f1_val_isr: {}'.format(f1_val))
+        # print('f1_val_isr: {}'.format(f1_val))
     return model, acc_val, micro_val, macro_val, train_time, f1_val, recall_val, precision_val
 
 def test_GCN(model, modularity_matrix, adj, features, test_mask, test_labels, all_test_idx, all_test_labels, save_name=None, dataset_name=None, sample_global=False):
@@ -265,7 +291,7 @@ def test_GCN(model, modularity_matrix, adj, features, test_mask, test_labels, al
     micro_test, macro_test = f1(output_in_test, test_labels)
     f1_test, recall_test, precision_test = f1_isr(output_in_test, test_labels)
 
-    print(f'macro_test_all: {macro_test_all}, f1_test_all: {f1_test_all}, macro_test: {macro_test}, f1_test: {f1_test}')
+    # print(f'macro_test_all: {macro_test_all}, f1_test_all: {f1_test_all}, macro_test: {macro_test}, f1_test: {f1_test}')
 
     return macro_test_all, f1_test_all, macro_test, f1_test
 
@@ -307,7 +333,10 @@ def augment_feature(feature, nx_G):
     augmented_core_feat = []
     print("===== 2. The k-core-based feature augmentation. =====")
     # Calculate k-core values for each node
-    core_numbers = nx.core_number(nx_G)
+
+    G_no_selfloops = nx_G.copy()
+    G_no_selfloops.remove_edges_from(nx.selfloop_edges(G_no_selfloops))
+    core_numbers = nx.core_number(G_no_selfloops)
     for i in range(feature.shape[0]):
         if i in core_numbers:
             augmented_core_feat.append(core_numbers[i])
@@ -340,7 +369,7 @@ def get_modularity_matrix(graph):
 
 class run_wrapper():
     def __init__(self, dataset, normalization, cuda):
-        if dataset in ['spammer', 'amazon', 'yelp']:
+        if dataset in ['spammer', 'amazon', 'yelp', 'he_amazon']:
 
             self.graph = None
             # graph_data = np.loadtxt("../Unsupervised_Spammer_Learning/data_graph/spammer_edge_index.txt", delimiter=' ', dtype=int)
@@ -376,21 +405,21 @@ class run_wrapper():
             values_normalized = 1.0 / row_sum[adj.indices()[0]]
             adj_normalized = torch.sparse_coo_tensor(adj.indices(), values_normalized, adj.size())
             self.adj = adj_normalized
-            print(self.adj)
+            # print(self.adj)
 
-            print("start loading features")
+            # print("start loading features")
             
-            features = np.loadtxt(args.data_path+"UserFeature.txt", delimiter='\t')
-            # features = augment_feature(features, self.nx_G)
+            features = np.loadtxt(args.data_path+"UserFeature_noID.txt", delimiter='\t')
+            features = augment_feature(features, self.nx_G)
             self.features = torch.from_numpy(features).float().cuda()
 
-            print("start loading labels")
+            # print("start loading labels")
             labels_data = pd.read_csv(args.data_path+"UserLabel.txt", sep=' ', usecols=[1, 2])
             labels_data = labels_data.to_numpy()
             self.labels = torch.from_numpy(labels_data[:, 1]).cuda()
             
             # calculate the Modularity Matrix
-            print("start loading modularity matrix")
+            # print("start loading modularity matrix")
             self.modularity_matrix = get_modularity_matrix(self.nx_G)
             self.modularity_matrix = torch.from_numpy(self.modularity_matrix).float().cuda()
 
@@ -404,15 +433,15 @@ class run_wrapper():
             self.idx_test_ori = torch.from_numpy(testing_data[:,0] - 1).cuda()
 
         self.dataset = dataset
-        print(f'self.labels: {self.labels, self.labels.shape}')
-        print(f'self.adj: {self.adj}')
-        print(f'self.feature: {self.features, self.features.shape}')
-        print(f'self.idx_test is {len(self.idx_test)}, self.idx_non_test is {len(self.idx_non_test)}')
-        print('finished loading dataset')
+        # print(f'self.labels: {self.labels, self.labels.shape}')
+        # print(f'self.adj: {self.adj}')
+        # print(f'self.feature: {self.features, self.features.shape}')
+        # print(f'self.idx_test is {len(self.idx_test)}, self.idx_non_test is {len(self.idx_non_test)}')
+        # print('finished loading dataset')
         self.raw_features = self.features
         if args.model == "SGC":
             self.features, precompute_time = sgc_precompute(self.features, self.adj, args.degree)
-            print("{:.4f}s".format(precompute_time))
+            # print("{:.4f}s".format(precompute_time))
             if args.strategy == 'featprop':
                 self.dis_features = self.features
         else:
@@ -426,7 +455,7 @@ class run_wrapper():
         set_seed(seed, args.cuda)
         max_budget = num_labeled_list[-1]
         if strategy in ['ppr', 'pagerank', 'pr_ppr', 'mixed', 'mixed_random', 'unified']:
-            print('strategy is ppr or pagerank')
+            # print('strategy is ppr or pagerank')
             # nx_G = nx.from_dict_of_lists(self.graph)
             nx_G = self.nx_G
             PR_scores = nx.pagerank(nx_G, alpha=0.85)
@@ -440,7 +469,7 @@ class run_wrapper():
                 original_weights[node] = 0.
 
         idx_non_test = self.idx_non_test.copy()
-        print('len(idx_non_test) is {}'.format(len(idx_non_test)))
+        # print('len(idx_non_test) is {}'.format(len(idx_non_test)))
         # Select validation nodes.
         # num_val = 500
         num_val = 10
@@ -458,7 +487,7 @@ class run_wrapper():
         budget = 20
         steps = 6
         pool = idx_non_test
-        print('len(idx_non_test): {}'.format(len(idx_non_test)))
+        # print('len(idx_non_test): {}'.format(len(idx_non_test)))
         np.random.seed() # cancel the fixed seed
         if args.sample_global:
             all_test_idx = list(set(self.idx_test).union(set(pool)))
@@ -469,16 +498,16 @@ class run_wrapper():
             test_idx_in_test = list(set(self.idx_test.cpu().numpy().tolist()))
 
         if args.model == 'GCN':
-            args.lr = 0.01
+            # args.lr = 0.01
             model, acc_val, micro_val, macro_val, train_time, f1_val, recall_val, precision_val = train_GCN(model, self.modularity_matrix, self.adj, selected_nodes, idx_val, self.features,
                                                                                 self.labels[selected_nodes],
                                                                                 self.labels[idx_val],
                                                                                 args.epochs, args.weight_decay, args.lr,
                                                                                 args.dropout)
-        print('-------------initial results------------')
-        print('micro_val: {:.4f}, macro_val: {:.4f}'.format(micro_val, macro_val))
-        # Active learning
-        print('strategy: ', strategy)
+        # print('-------------initial results------------')
+        # print('micro_val: {:.4f}, macro_val: {:.4f}'.format(micro_val, macro_val))
+        # # Active learning
+        # print('strategy: ', strategy)
         cur_num = 0
         val_results = {'acc': [], 'micro': [], 'macro': [], 'f1': [], "recall":[], "precision":[]}
         test_results = {'macro_test_all': [], 'f1_test_all': [], 'macro_test': [], 'f1_test': []}
@@ -497,6 +526,7 @@ class run_wrapper():
 
         time_AL = 0
         for i in range(len(num_labeled_list)):
+            print('num_labeled: {}'.format(num_labeled_list[i]))
             if num_labeled_list[i] > max_budget:
                 break
             budget = num_labeled_list[i] - cur_num
@@ -530,17 +560,17 @@ class run_wrapper():
             pool = list(set(pool) - set(idx_train))
 
             if args.sample_global:
-                print("============sample global=======")
+                # print("============sample global=======")
                 all_test_idx = list(set(pool))
                 test_idx_in_test = list(set(self.idx_test.cpu().numpy().tolist()).intersection(set(pool)))
-                print(len(test_idx_in_test))
-                print(len(all_test_idx))
+                # print(len(test_idx_in_test))
+                # print(len(all_test_idx))
             else:
-                print("============sample only in training=======")
+                # print("============sample only in training=======")
                 test_idx_in_test = list(set(self.idx_test.cpu().numpy().tolist()))
                 all_test_idx = list(set(pool).union(test_idx_in_test))
-                print(len(test_idx_in_test))
-                print(len(all_test_idx))
+                # print(len(test_idx_in_test))
+                # print(len(all_test_idx))
             
 
             if args.model == 'GCN':
@@ -549,7 +579,7 @@ class run_wrapper():
                                                                              self.labels[idx_val],
                                                                              args.epochs, args.weight_decay, args.lr,
                                                                              args.dropout)
-            print(f"the number of labels is {num_labeled_list[i]}")
+            # print(f"the number of labels is {num_labeled_list[i]}")
             if args.model == 'GCN':
                 macro_test_all, f1_test_all, macro_test, f1_test = test_GCN(model, self.modularity_matrix, self.adj, self.features, test_idx_in_test, self.labels[test_idx_in_test], all_test_idx, self.labels[all_test_idx], save_name=args.test_percents, dataset_name=args.dataset, sample_global=args.sample_global)
             
@@ -567,7 +597,7 @@ class run_wrapper():
             test_results['macro_test'].append(macro_test)
             test_results['f1_test'].append(f1_test)
 
-        print('AL Time: {}s'.format(time_AL))
+        # print('AL Time: {}s'.format(time_AL))
         return val_results, test_results, get_classes_statistic(self.labels[selected_nodes].cpu().numpy()), time_AL
 
 
@@ -583,6 +613,13 @@ if __name__ == '__main__':
             num_labeled_list = [i for i in range(10,401,10)]
     elif args.dataset == 'yelp':
         num_labeled_list = [10, 20, 30, 40] + [i for i in range(50,1001,50)]
+
+    elif args.dataset == 'he_amazon':
+        if args.test_percents in ['50percent', '30percent', '10percent']:
+            num_labeled_list = [i for i in range(10,341,10)]
+        else:
+            num_labeled_list = [i for i in range(10,171,10)]
+
     num_interval = len(num_labeled_list)
 
     val_results = {'micro': [[] for _ in range(num_interval)],

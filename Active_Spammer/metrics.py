@@ -21,9 +21,10 @@ def f1_isr(output, labels):
     preds = output.max(1)[1]
     preds = preds.cpu().detach().numpy()
     labels = labels.cpu().detach().numpy()
-    print(f"preds.shape: {preds.shape}, labels.shape: {labels.shape}")
+    # print(f"preds.shape: {preds.shape}, labels.shape: {labels.shape}")
     tp, fn, fp, tn = 0, 0, 0, 0
     for i in range(preds.shape[0]):
+        # print(f"preds[i]: {preds[i]}, labels[i]: {labels[i]}")
         if preds[i]==1 and labels[i]==1:
             tp += 1
         elif preds[i]==0 and labels[i]==1:

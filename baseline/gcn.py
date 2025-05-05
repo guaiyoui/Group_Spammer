@@ -173,7 +173,7 @@ if __name__ == "__main__":
     
     # 训练 GCN 模型（200 个 epoch）
     model.train()
-    for epoch in range(200):
+    for epoch in range(300):
         optimizer.zero_grad()
         output = model(features, adj)
         loss = loss_fn(output[train_indices], y_train)
@@ -187,5 +187,39 @@ if __name__ == "__main__":
     output = model(features, adj)
     # 取预测概率最高的类别作为预测结果
     y_pred = output[test_indices].max(1)[1].cpu().numpy()
+
+    # 保存测试索引和预测结果
+    output_data = np.column_stack((test_indices.cpu().numpy() + 1, y_pred))  # 索引加1恢复原始索引
+    output_path = './results/gcn_predictions.txt'
+    np.savetxt(output_path, output_data, fmt='%d', delimiter='\t', 
+               header='sample_index\tprediction', comments='')
+    print(f"Saved test indices and predictions to {output_path}")
+
     f, recall, precision = compute_metric(y_pred, y_test.numpy())
     print("F-measure: {:.4f}, Recall: {:.4f}, Precision: {:.4f}".format(f, recall, precision))
+
+    # 保存评估指标
+    metrics_path = './results/gcn_metrics.txt'
+    with open(metrics_path, 'w') as f_out:
+        f_out.write(f"F-measure: {f:.4f}\nRecall: {recall:.4f}\nPrecision: {precision:.4f}\n")
+    print(f"Saved evaluation metrics to {metrics_path}")
+
+
+    from pathlib import Path
+    import os
+
+    dataset_name = str(args.train_csv).split("/")[2]
+    print(dataset_name)
+    target_dir = os.path.join("../detection_results", dataset_name)
+    os.makedirs(target_dir, exist_ok=True)
+
+    output_path = os.path.join(target_dir, "gcn_predictions.txt")
+    metrics_path = os.path.join(target_dir, "gcn_metrics.txt")
+
+    np.savetxt(output_path, output_data, fmt='%d', delimiter='\t', 
+               header='sample_index\tprediction', comments='')
+    print(f"Saved test indices and predictions to {output_path}")
+
+    with open(metrics_path, 'w') as f_out:
+        f_out.write(f"F-measure: {f:.4f}\nRecall: {recall:.4f}\nPrecision: {precision:.4f}\n")
+    print(f"Saved evaluation metrics to {metrics_path}")

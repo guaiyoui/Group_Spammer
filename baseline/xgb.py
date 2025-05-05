@@ -97,6 +97,38 @@ if __name__ == "__main__":
     # 在测试集上进行预测
     y_pred = clf.predict(X_test)
     
+    # 保存测试索引和预测结果
+    output_data = np.column_stack((test_indices + 1, y_pred))  # 索引加1恢复原始索引
+    output_path = './results/xgb_predictions.txt'
+    np.savetxt(output_path, output_data, fmt='%d', delimiter='\t', 
+               header='sample_index\tprediction', comments='')
+    print(f"Saved test indices and predictions to {output_path}")
+
     # 计算评估指标
     f, recall, precision = compute_metric(y_pred, y_test)
     print("F-measure: {:.4f}, Recall: {:.4f}, Precision: {:.4f}".format(f, recall, precision))
+
+    # 保存评估指标
+    metrics_path = './results/xgb_metrics.txt'
+    with open(metrics_path, 'w') as f_out:
+        f_out.write(f"F-measure: {f:.4f}\nRecall: {recall:.4f}\nPrecision: {precision:.4f}\n")
+    print(f"Saved evaluation metrics to {metrics_path}")
+
+    from pathlib import Path
+    import os
+
+    dataset_name = str(args.train_csv).split("/")[2]
+    print(dataset_name)
+    target_dir = os.path.join("../detection_results", dataset_name)
+    os.makedirs(target_dir, exist_ok=True)
+
+    output_path = os.path.join(target_dir, "xgb_predictions.txt")
+    metrics_path = os.path.join(target_dir, "xgb_metrics.txt")
+
+    np.savetxt(output_path, output_data, fmt='%d', delimiter='\t', 
+               header='sample_index\tprediction', comments='')
+    print(f"Saved test indices and predictions to {output_path}")
+
+    with open(metrics_path, 'w') as f_out:
+        f_out.write(f"F-measure: {f:.4f}\nRecall: {recall:.4f}\nPrecision: {precision:.4f}\n")
+    print(f"Saved evaluation metrics to {metrics_path}")

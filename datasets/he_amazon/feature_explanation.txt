@@ -1,0 +1,1042 @@
+network:
+  - pagerank
+  - degree
+  - clustering_coef
+  - eigenvector_cent
+  - w_pagerank
+  - w_degree
+  - w_clustering_coef
+  - w_eigenvector_cent
+
+meta:
+  - tfidf_review_body
+  - n_of_reviews
+  - avg_review_rating
+  - avg_days_between_reviews
+  - stdev_days_between_reviews
+  - max_days_between_reviews
+  - min_days_between_reviews
+  - share_helpful_reviews
+  - share_1star
+  - share_5star
+  - share_photo
+  - std_review_len
+
+text:
+  - abil
+  - abl
+  - absolut
+  - absolut love
+  - access
+  - accessori
+  - accur
+  - across
+  - activ
+  - actual
+  - ad
+  - adapt
+  - addit
+  - adhes
+  - adjust
+  - adult
+  - advertis
+  - afford
+  - alarm
+  - allow
+  - almost
+  - along
+  - alreadi
+  - also
+  - although
+  - alway
+  - amaz
+  - amazon
+  - amount
+  - angl
+  - annoy
+  - anoth
+  - anymor
+  - anyon
+  - anyth
+  - anyway
+  - anywher
+  - apart
+  - appear
+  - appl
+  - appli
+  - applic
+  - appreci
+  - area
+  - around
+  - arriv
+  - ask
+  - asleep
+  - assembl
+  - attach
+  - audio
+  - automat
+  - avail
+  - away
+  - awesom
+  - babi
+  - back
+  - bag
+  - ball
+  - band
+  - bank
+  - bare
+  - bark
+  - base
+  - basic
+  - bass
+  - bathroom
+  - batteri
+  - batteri last
+  - batteri life
+  - beard
+  - beat
+  - beauti
+  - becom
+  - bedroom
+  - behind
+  - believ
+  - best
+  - better
+  - bigger
+  - bike
+  - birthday
+  - black
+  - blade
+  - block
+  - blood
+  - blood pressur
+  - blow
+  - blue
+  - bluetooth
+  - bodi
+  - bother
+  - bottl
+  - bottom
+  - bought
+  - brand
+  - break
+  - bright
+  - bring
+  - broke
+  - broken
+  - browser
+  - browser support
+  - brush
+  - bubbl
+  - bud
+  - build
+  - built
+  - bulb
+  - bulki
+  - burn
+  - busi
+  - button
+  - buy
+  - cabinet
+  - cabl
+  - call
+  - came
+  - camera
+  - camp
+  - cancel
+  - cannot
+  - card
+  - care
+  - carri
+  - case
+  - cat
+  - caus
+  - chair
+  - chang
+  - charg
+  - charg phone
+  - charger
+  - cheap
+  - cheaper
+  - check
+  - child
+  - children
+  - choic
+  - choos
+  - christma
+  - clean
+  - cleaner
+  - clear
+  - click
+  - clip
+  - clipper
+  - clock
+  - close
+  - closet
+  - cloth
+  - coffe
+  - cold
+  - collar
+  - color
+  - come
+  - comfort
+  - compact
+  - compani
+  - compar
+  - complaint
+  - complet
+  - comput
+  - con
+  - concern
+  - condit
+  - connect
+  - consid
+  - consist
+  - constantli
+  - construct
+  - contact
+  - contain
+  - continu
+  - control
+  - conveni
+  - cook
+  - cool
+  - cord
+  - corner
+  - correct
+  - cost
+  - could
+  - counter
+  - coupl
+  - cours
+  - cover
+  - crack
+  - creat
+  - curl
+  - current
+  - cushion
+  - custom
+  - custom servic
+  - cut
+  - cute
+  - daili
+  - damag
+  - dark
+  - daughter
+  - day
+  - dead
+  - deal
+  - decent
+  - decid
+  - deep
+  - defect
+  - definit
+  - definit recommend
+  - degre
+  - deliv
+  - deliveri
+  - depend
+  - describ
+  - descript
+  - design
+  - desk
+  - detect
+  - devic
+  - die
+  - differ
+  - difficult
+  - diffus
+  - digit
+  - direct
+  - disappoint
+  - display
+  - dog
+  - done
+  - dont
+  - door
+  - doubl
+  - drain
+  - dri
+  - drink
+  - drive
+  - drop
+  - dryer
+  - durabl
+  - dust
+  - ear
+  - earbud
+  - eas
+  - easi
+  - easi assembl
+  - easi clean
+  - easi easi
+  - easi instal
+  - easi read
+  - easi work
+  - easier
+  - easili
+  - edg
+  - effect
+  - either
+  - electr
+  - els
+  - email
+  - empti
+  - end
+  - enjoy
+  - enough
+  - entir
+  - especi
+  - even
+  - even though
+  - ever
+  - everi
+  - everi time
+  - everyday
+  - everyon
+  - everyth
+  - everywher
+  - exactli
+  - excel
+  - excel product
+  - except
+  - excit
+  - expect
+  - expens
+  - experi
+  - extend
+  - extra
+  - extrem
+  - eye
+  - fabric
+  - face
+  - facial
+  - fact
+  - fail
+  - fairli
+  - fall
+  - famili
+  - fantast
+  - fast
+  - faster
+  - favorit
+  - featur
+  - feed
+  - feeder
+  - feel
+  - feel like
+  - feet
+  - fell
+  - felt
+  - figur
+  - file
+  - fill
+  - filter
+  - final
+  - find
+  - fine
+  - finger
+  - finish
+  - first
+  - first time
+  - fit
+  - five
+  - flat
+  - flavor
+  - fli
+  - flimsi
+  - floor
+  - floss
+  - flosser
+  - foam
+  - fold
+  - follow
+  - food
+  - foot
+  - forehead
+  - forward
+  - found
+  - four
+  - frame
+  - free
+  - fresh
+  - friend
+  - front
+  - frustrat
+  - full
+  - fulli
+  - function
+  - futur
+  - game
+  - gave
+  - gener
+  - get
+  - gift
+  - give
+  - give star
+  - given
+  - glad
+  - glass
+  - glove
+  - go
+  - goe
+  - gone
+  - good price
+  - good product
+  - good qualiti
+  - gotten
+  - great easi
+  - great littl
+  - great love
+  - great price
+  - great product
+  - great qualiti
+  - great sound
+  - great valu
+  - great work
+  - green
+  - grip
+  - ground
+  - grow
+  - guard
+  - guess
+  - hair
+  - half
+  - hand
+  - handi
+  - handl
+  - hang
+  - happen
+  - happi
+  - happi product
+  - happi purchas
+  - hard
+  - hate
+  - head
+  - headphon
+  - headset
+  - hear
+  - heat
+  - heavi
+  - height
+  - held
+  - help
+  - high
+  - high qualiti
+  - higher
+  - highli
+  - highli recommend
+  - hold
+  - holder
+  - hole
+  - home
+  - honestli
+  - hook
+  - hope
+  - horribl
+  - hose
+  - hour
+  - hous
+  - howev
+  - html5
+  - html5 video
+  - huge
+  - humid
+  - humidifi
+  - hurt
+  - husband
+  - idea
+  - immedi
+  - import
+  - impress
+  - improv
+  - inch
+  - includ
+  - incred
+  - indic
+  - inflat
+  - initi
+  - insid
+  - instal
+  - instead
+  - instruct
+  - ipad
+  - iphon
+  - iron
+  - issu
+  - item
+  - juic
+  - junk
+  - keep
+  - kept
+  - key
+  - keyboard
+  - kid
+  - kid love
+  - kind
+  - kitchen
+  - know
+  - lamp
+  - laptop
+  - larg
+  - larger
+  - last
+  - last long
+  - later
+  - leak
+  - learn
+  - leash
+  - least
+  - leather
+  - leav
+  - left
+  - leg
+  - length
+  - less
+  - level
+  - life
+  - light
+  - light weight
+  - lighter
+  - lightweight
+  - like much
+  - like product
+  - line
+  - listen
+  - liter
+  - littl
+  - live
+  - locat
+  - lock
+  - long
+  - long time
+  - longer
+  - look
+  - look good
+  - look great
+  - look like
+  - look nice
+  - loos
+  - lose
+  - lost
+  - lot
+  - loud
+  - love
+  - love easi
+  - love great
+  - love love
+  - love product
+  - lower
+  - lunch
+  - macbook
+  - machin
+  - made
+  - magnet
+  - main
+  - make
+  - make easi
+  - make sure
+  - mani
+  - manual
+  - manufactur
+  - mascara
+  - mask
+  - massag
+  - match
+  - materi
+  - matter
+  - mattress
+  - mayb
+  - mean
+  - measur
+  - meat
+  - medium
+  - mention
+  - mess
+  - metal
+  - microphon
+  - middl
+  - might
+  - milk
+  - mind
+  - mine
+  - minut
+  - miss
+  - mist
+  - mode
+  - model
+  - moistur
+  - mold
+  - money
+  - monitor
+  - month
+  - morn
+  - motion
+  - mount
+  - mous
+  - mouth
+  - move
+  - much
+  - much better
+  - much easier
+  - multipl
+  - muscl
+  - music
+  - must
+  - nail
+  - name
+  - natur
+  - near
+  - neck
+  - need
+  - neg
+  - never
+  - next
+  - nice
+  - night
+  - nois
+  - nois cancel
+  - normal
+  - nose
+  - note
+  - noth
+  - notic
+  - number
+  - offer
+  - offic
+  - often
+  - okay
+  - older
+  - one
+  - onlin
+  - open
+  - oper
+  - option
+  - order
+  - organ
+  - origin
+  - other
+  - otherwis
+  - outdoor
+  - outlet
+  - outsid
+  - overal
+  - own
+  - pack
+  - packag
+  - pad
+  - paid
+  - pain
+  - paint
+  - pair
+  - paper
+  - part
+  - past
+  - pencil
+  - peopl
+  - perfect
+  - perfect size
+  - perfectli
+  - perform
+  - period
+  - person
+  - phone
+  - photo
+  - pick
+  - pictur
+  - piec
+  - pillow
+  - place
+  - plan
+  - plant
+  - plastic
+  - plate
+  - play
+  - pleas
+  - plenti
+  - plu
+  - plug
+  - pocket
+  - point
+  - pool
+  - poor
+  - port
+  - portabl
+  - posit
+  - possibl
+  - powder
+  - power
+  - practic
+  - prefer
+  - present
+  - press
+  - pressur
+  - pretti
+  - pretti good
+  - prevent
+  - previou
+  - price
+  - price great
+  - pro
+  - probabl
+  - problem
+  - process
+  - product easi
+  - product good
+  - product great
+  - product love
+  - product use
+  - product work
+  - profession
+  - program
+  - project
+  - properli
+  - protect
+  - protector
+  - protein
+  - provid
+  - pull
+  - pump
+  - puppi
+  - purchas
+  - purpos
+  - purs
+  - push
+  - put
+  - qualiti
+  - qualiti good
+  - qualiti great
+  - qualiti product
+  - quick
+  - quickli
+  - quiet
+  - quit
+  - rain
+  - rang
+  - rate
+  - rather
+  - razor
+  - reach
+  - read
+  - read review
+  - readi
+  - real
+  - realiz
+  - realli
+  - realli good
+  - realli help
+  - realli like
+  - realli nice
+  - realli well
+  - realli work
+  - reason
+  - receiv
+  - recent
+  - recharg
+  - recommend
+  - recommend anyon
+  - recommend product
+  - record
+  - reduc
+  - refil
+  - refund
+  - regular
+  - relax
+  - reliabl
+  - relief
+  - remot
+  - remov
+  - replac
+  - requir
+  - resist
+  - respons
+  - rest
+  - result
+  - return
+  - review
+  - right
+  - right away
+  - ring
+  - roll
+  - room
+  - rubber
+  - run
+  - safe
+  - said
+  - samsung
+  - satisfi
+  - save
+  - say
+  - scale
+  - scent
+  - school
+  - scratch
+  - screen
+  - screw
+  - seal
+  - search
+  - seat
+  - second
+  - secur
+  - see
+  - seem
+  - seem like
+  - seem work
+  - seen
+  - seller
+  - send
+  - sensit
+  - sensor
+  - sent
+  - separ
+  - servic
+  - set
+  - setup
+  - sever
+  - shape
+  - sharp
+  - sharpen
+  - shave
+  - ship
+  - shock
+  - shoe
+  - shop
+  - short
+  - shoulder
+  - show
+  - shower
+  - shut
+  - side
+  - similar
+  - simpl
+  - simpli
+  - sinc
+  - singl
+  - sink
+  - sit
+  - size
+  - skeptic
+  - skin
+  - sleek
+  - sleep
+  - slide
+  - slightli
+  - slip
+  - slow
+  - small
+  - smaller
+  - smart
+  - smell
+  - smooth
+  - snap
+  - soap
+  - soft
+  - solar
+  - solid
+  - solut
+  - someon
+  - someth
+  - sometim
+  - soon
+  - sound
+  - sound great
+  - sound qualiti
+  - space
+  - speaker
+  - speed
+  - spend
+  - spent
+  - spot
+  - spray
+  - stain
+  - stand
+  - standard
+  - star
+  - start
+  - state
+  - station
+  - stay
+  - steam
+  - step
+  - stick
+  - still
+  - still work
+  - stop
+  - stop work
+  - storag
+  - store
+  - straight
+  - straighten
+  - strap
+  - strip
+  - strong
+  - stuck
+  - stuff
+  - sturdi
+  - style
+  - stylu
+  - suck
+  - suction
+  - suggest
+  - summer
+  - super
+  - super easi
+  - support
+  - support html5
+  - suppos
+  - sure
+  - surfac
+  - surpris
+  - switch
+  - system
+  - tabl
+  - tablet
+  - take
+  - talk
+  - tank
+  - tape
+  - tast
+  - teeth
+  - tell
+  - temp
+  - temperatur
+  - terribl
+  - test
+  - thank
+  - thermomet
+  - thick
+  - thin
+  - thing
+  - think
+  - though
+  - thought
+  - thought would
+  - three
+  - throw
+  - tight
+  - time
+  - time use
+  - timer
+  - tini
+  - tip
+  - tire
+  - today
+  - toddler
+  - togeth
+  - told
+  - took
+  - tool
+  - toothbrush
+  - total
+  - touch
+  - towel
+  - track
+  - trap
+  - travel
+  - tray
+  - tri
+  - trim
+  - trimmer
+  - trip
+  - troubl
+  - true
+  - truli
+  - tube
+  - turn
+  - twice
+  - type
+  - uncomfort
+  - understand
+  - unfortun
+  - unit
+  - unless
+  - updat
+  - use product
+  - useless
+  - user
+  - usual
+  - vacuum
+  - valu
+  - version
+  - vibrat
+  - video
+  - view
+  - voic
+  - volum
+  - wait
+  - wake
+  - walk
+  - wall
+  - want
+  - warm
+  - warranti
+  - wash
+  - wast
+  - wast money
+  - watch
+  - water
+  - waterproof
+  - wear
+  - weather
+  - week
+  - weight
+  - well made
+  - well worth
+  - went
+  - white
+  - white nois
+  - whiten
+  - whole
+  - wide
+  - wife
+  - wifi
+  - window
+  - winter
+  - wipe
+  - wire
+  - wireless
+  - wish
+  - within
+  - without
+  - wonder
+  - work advertis
+  - work better
+  - work fine
+  - work good
+  - work great
+  - work like
+  - work perfectli
+  - work realli
+  - work well
+  - worri
+  - worth
+  - worth money
+  - would
+  - would definit
+  - would highli
+  - would like
+  - would recommend
+  - would work
+  - wrap
+  - write
+  - wrong
+  - yard
+  - year
+  - zipper
+
+img:
+  - num_images
+  - num_product_images
+  - min_sim
+  - max_sim
+  - mean_sim
+  - std_sim
+  - min_sim_review
+  - max_sim_review
+  - mean_sim_review
+  - std_sim_review
+  - min_sim_product
+  - max_sim_product
+  - mean_sim_product
+  - std_sim_product
+

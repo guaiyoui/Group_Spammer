@@ -11,3 +11,7 @@ python -u lr.py --feature_path ../datasets/Yelp/UserFeature_node2vec_combined.tx
 
 
 python -u lr.py --feature_path ../he_amazon/data/network/product_features.txt --train_csv ../he_amazon/data/network/Training_Testing/5percent/train_4.csv --test_csv ../he_amazon/data/network/Training_Testing/5percent/test_4.csv
+
+python -u lr.py --feature_path ../datasets/he_amazon/UserFeature.txt --train_csv ../datasets/he_amazon/Training_Testing/5percent/train_4.csv --test_csv ../datasets/he_amazon/Training_Testing/5percent/test_4.csv
+
+python -u lr.py --feature_path ../datasets/he_amazon/UserFeature_noID.txt --train_csv ../datasets/he_amazon/Training_Testing/5percent/train_4.csv --test_csv ../datasets/he_amazon/Training_Testing/5percent/test_4.csv

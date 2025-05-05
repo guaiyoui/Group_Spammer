@@ -7323,3 +7323,1218 @@ macro_test_all: 0.9529240041837443, f1_test_all: 0.9159859976662776, macro_test:
 f1_val_isr: 0.8
 f1_test_isr: 0.9141445336627547
 AL Time: 0.25265453150495887s
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.
+start loading J01Network
+Traceback (most recent call last):
+  File "run_baselines.py", line 608, in <module>
+    wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
+  File "run_baselines.py", line 344, in __init__
+    graph_data = np.loadtxt(args.data_path+"J01Network.txt", delimiter=' ', dtype=int)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/data1/jianweiw/env_conda/imputation/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: ../Spammer-ISR-Initial-Exp/ISR-spammer-detection/Data/J01Network.txt not found.

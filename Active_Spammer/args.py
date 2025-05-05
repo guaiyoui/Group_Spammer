@@ -10,7 +10,7 @@ def get_citation_args():
                         help='Number of epochs to train.')
     parser.add_argument('--lr', type=float, default=0.2,
                         help='Initial learning rate.')
-    parser.add_argument('--weight_decay', type=float, default=5e-4,
+    parser.add_argument('--weight_decay', type=float, default=5e-6,
                         help='Weight decay (L2 loss on parameters).') # should use 5e-6 for our method
     parser.add_argument('--hidden', type=int, default=16,
                         help='Number of hidden units.')
@@ -46,8 +46,8 @@ def get_citation_args():
     parser.add_argument('--lambdaa', type=float, default=0.99,
                         help='control combination')
     
-    parser.add_argument('--weight_loss_subgraph', type=float, default=0.01,
-                        help='control combination')
+    parser.add_argument('--weight_loss_subgraph', type=float, default=0.4,
+                        help='control combination') #0.1 for ComGA
     parser.add_argument('--weight_loss_reconstruction', type=float, default=1.0,
                         help='control combination')
     parser.add_argument('--weight_kl_loss', type=float, default=0.1,

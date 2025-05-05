@@ -1,0 +1,9 @@
+---------datetime: 2025-04-01 09:27:26.957163-----------
+Budget list: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170]
+learning rate: 0.01, epoch: 300, weight decay: 0.0005, hidden: 64
+50runs using seed.txt
+Test_macro_test_all_macro 0.6524
+Test_f1_test_all_macro 0.5926
+Test_macro_test_macro 0.6518
+Test_f1_test_macro 0.5918
+Average AL_Time: 0.0037771696224808693s

@@ -7,7 +7,8 @@ from sklearn.metrics import classification_report
 
 # path = './dataset/'
 # path = '../Data/'
-path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/he_amazon/data/network/"
+# path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/he_amazon/data/network/"
+path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/Group_Spammer/datasets/he_amazon/"
 # rf_features = 'userfeatures2021.txt'#Read User Feature for LR Training
 rf_features = 'UserFeature.txt'#Read User Feature for LR Training
 # rf_label = '5percent/test_4.csv'  #Load Testing data: index and label; You should revise when training data is changed.

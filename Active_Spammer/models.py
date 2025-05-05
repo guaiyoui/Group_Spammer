@@ -4,6 +4,7 @@ from torch.nn import Module
 import torch.nn.functional as F
 import math
 from torch_geometric.nn import GCNConv, MixHopConv, GINConv, MLP, GATConv, LayerNorm, GraphNorm
+from torch_geometric.nn import BatchNorm
 from torch.nn import BatchNorm1d
 # from layer import GCNConv
 from layers import AvgReadout, Discriminator, GCN
@@ -299,12 +300,14 @@ class Net(torch.nn.Module):
         x = self.cls(x, edge_index)
         return x
 
+
 class GIN_adv(torch.nn.Module):
-    def __init__(self, num_features, num_classes, num_layers=2, hidden_dim=32, eps=0, learn_eps=False):
+    def __init__(self, num_features, num_classes, num_layers=2, hidden_dim=32, dropout=0.8, eps=0, learn_eps=False):
         super(GIN_adv, self).__init__()
 
         self.convs = torch.nn.ModuleList()
         self.bns = torch.nn.ModuleList()
+        self.dropout = dropout
 
         self.convs.append(GCNConv(num_features, hidden_dim))
         self.bns.append(nn.BatchNorm1d(hidden_dim))
@@ -315,28 +318,112 @@ class GIN_adv(torch.nn.Module):
 
         self.jump = nn.Linear(num_layers * hidden_dim, num_classes)
 
+        self.apply(self.initialize_weights)
+
     def forward(self, x, edge_index):
         xs = []
         for i in range(len(self.convs)):
             x = self.convs[i](x, edge_index)
             x = self.bns[i](x)
             x = F.relu(x)
+            # x = F.leaky_relu(x, negative_slope=0.01)
+            # prelu = nn.PReLU()  # 需要先实例化
+            # x = prelu(x)
+            # x = F.gelu(x)
+            # x = x * torch.sigmoid(x)
+            x = F.dropout(x, p=self.dropout, training=self.training)  # Dropout
             xs.append(x)
             self.node_embedding = x
 
         x = torch.cat(xs, dim=1)
+        
         x = self.jump(x)
 
+
         return F.log_softmax(x, dim=-1)
+    
     def get_node_embedding(self):
         return self.node_embedding
+    
+    def initialize_weights(self, module):
+        """初始化权重"""
+        if isinstance(module, nn.Linear):  
+            nn.init.xavier_uniform_(module.weight)  # Xavier 初始化
+            if module.bias is not None:
+                nn.init.constant_(module.bias, 0)
+        
+        elif isinstance(module, GCNConv):  
+            nn.init.kaiming_uniform_(module.lin.weight, nonlinearity='relu')  # He 初始化
+            if module.lin.bias is not None:
+                nn.init.constant_(module.lin.bias, 0)
+        
+        elif isinstance(module, nn.BatchNorm1d):
+            nn.init.constant_(module.weight, 1)
+            nn.init.constant_(module.bias, 0)
+
+
+# class GIN_adv(torch.nn.Module):
+#     def __init__(self, num_features, num_classes, num_layers=2, hidden_dim=32, dropout=0.5, eps=0, learn_eps=True):
+#         super(GIN_adv, self).__init__()
+
+#         self.convs = nn.ModuleList()
+#         self.bns = nn.ModuleList()
+#         self.dropout = dropout
+#         self.eps = nn.Parameter(torch.Tensor([eps])) if learn_eps else eps
+
+#         # 第一层
+#         mlp = nn.Sequential(nn.Linear(num_features, hidden_dim), nn.ReLU(), nn.Linear(hidden_dim, hidden_dim))
+#         self.convs.append(GINConv(mlp, train_eps=learn_eps))
+#         self.bns.append(BatchNorm(hidden_dim))
+
+#         # 其他隐藏层
+#         for _ in range(num_layers - 1):
+#             mlp = nn.Sequential(nn.Linear(hidden_dim, hidden_dim), nn.ReLU(), nn.Linear(hidden_dim, hidden_dim))
+#             self.convs.append(GINConv(mlp, train_eps=learn_eps))
+#             self.bns.append(BatchNorm(hidden_dim))
+
+#         # Residual connection (如果输入和隐藏层维度不同，需要映射)
+#         self.res_fc = nn.Linear(num_features, hidden_dim) if num_features != hidden_dim else None
+
+#         # 跳跃连接 + 分类层
+#         self.jump = nn.Linear(num_layers * hidden_dim, num_classes)
+
+#     def forward(self, x, edge_index):
+#         xs = []
+#         res_x = x  # 残差连接
+
+#         for i in range(len(self.convs)):
+#             x = self.convs[i](x, edge_index)
+#             x = self.bns[i](x)
+
+#             # 残差连接
+#             if i == 0 and self.res_fc is not None:
+#                 res_x = self.res_fc(res_x)  # 维度对齐
+#             if x.shape == res_x.shape:
+#                 x = x + res_x  # 仅在维度匹配时添加残差
+            
+#             x = F.relu(x)
+#             x = F.dropout(x, p=self.dropout, training=self.training)  # Dropout
+#             xs.append(x)
+
+#         self.node_embedding = torch.cat(xs, dim=1)  # 存储完整的节点嵌入
+
+#         x = self.jump(self.node_embedding)
+
+#         return F.log_softmax(x, dim=-1)
+#         # return x  # 直接返回 logits，不使用 log_softmax
+
+#     def get_node_embedding(self):
+#         return self.node_embedding
+
+
 
 def target_distribution(q):
     weight = q**2 / q.sum(0)
     return (weight.t() / weight.sum(1)).t()
 
 class tGCN(torch.nn.Module):
-    def __init__(self, num_features, num_nodes, num_classes, num_layers=2, hidden_dim=32, n_clusters=10):
+    def __init__(self, num_features, num_nodes, num_classes, num_layers=2, hidden_dim=32, dropout=0.8, n_clusters=3):
         super(tGCN, self).__init__()
 
         self.convs = torch.nn.ModuleList()
@@ -358,7 +445,8 @@ class tGCN(torch.nn.Module):
         self.autoencoder.append(nn.Linear(hidden_dim, num_nodes))
 
         self.jump = nn.Linear(num_layers * hidden_dim, num_classes)
-
+        
+        self.dropout = dropout
         self.v = 1
         self.cluster_layer = Parameter(torch.Tensor(n_clusters, hidden_dim))
         torch.nn.init.xavier_normal_(self.cluster_layer.data)
@@ -375,6 +463,7 @@ class tGCN(torch.nn.Module):
             b = self.autoencoder[i](b)
             x = x + b
             self.latent_encoding = b
+            x = F.dropout(x, p=self.dropout, training=self.training)  # Dropout
 
         for i in range(len(self.autoencoder)-len(self.convs)):
             b = self.autoencoder[i+len(self.convs)](b)
@@ -445,6 +534,8 @@ def get_model(model_opt, nfeat, nsample, nclass, nhid=0, dropout=0, cuda=True):
     elif model_opt == 'GCN_update':
         model = GIN_adv(num_features=nfeat,
                     num_classes=nclass)
+        # model = GCN_adv(num_features=nfeat,
+        #             num_classes=nclass)
 
     elif model_opt == 'distance_based':
         model = distance_based(nfeat=nfeat, nembed=nhid, nclass=nclass)

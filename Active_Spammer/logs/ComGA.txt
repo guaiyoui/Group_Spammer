@@ -1,0 +1,6072 @@
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15489609414627076
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 193
+num_labeled: 10
+Early stopping at epoch 216
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.4859480611881893
+num_labeled: 20
+Early stopping at epoch 157
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5134456794550017
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5204570586067085
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5145667801740446
+num_labeled: 50
+Early stopping at epoch 155
+f1_val_isr: 0.4
+f1_test_isr: 0.5107327905255367
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5055704955820208
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5113016367887763
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5156551990722846
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5136525524337159
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5144230769230769
+num_labeled: 110
+Early stopping at epoch 155
+f1_val_isr: 0.4
+f1_test_isr: 0.5220851571826501
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.4
+f1_test_isr: 0.5263157894736843
+num_labeled: 130
+Early stopping at epoch 156
+f1_val_isr: 0.4
+f1_test_isr: 0.5290322580645161
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.5319838056680161
+num_labeled: 150
+Early stopping at epoch 155
+f1_val_isr: 0.4
+f1_test_isr: 0.5330093155123531
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.4
+f1_test_isr: 0.5417844166330239
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.5441295546558704
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15839421591906444
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 194
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.48616600790513836
+num_labeled: 20
+Early stopping at epoch 164
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.510412722453616
+num_labeled: 30
+Early stopping at epoch 235
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5003790750568613
+num_labeled: 40
+Early stopping at epoch 180
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5101805608912792
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5394285714285715
+num_labeled: 60
+Early stopping at epoch 157
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5505918289423445
+num_labeled: 70
+Early stopping at epoch 164
+f1_val_isr: 0.6
+f1_test_isr: 0.5393963151705213
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5522620904836194
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.556032799687622
+num_labeled: 100
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5629397967161845
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5685358255451712
+num_labeled: 120
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.5688785409390765
+num_labeled: 130
+Early stopping at epoch 155
+f1_val_isr: 0.6
+f1_test_isr: 0.5686351192804068
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5661271219897355
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5678913738019169
+num_labeled: 160
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.5686977299880525
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5708566853482787
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15905750213305356
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 193
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5088047958036718
+num_labeled: 20
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5845272206303724
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6132952108649036
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6187363834422659
+num_labeled: 50
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6240409207161126
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6296707362190158
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6315414738341046
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.628380881808077
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6329866270430907
+num_labeled: 100
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.632428466617755
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.634074074074074
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6272321428571428
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6283152782966007
+num_labeled: 140
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6291713535808025
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6327300150829562
+num_labeled: 160
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6303443057132045
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6339421613394217
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15782436599123892
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 193
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.49401300034211426
+num_labeled: 20
+Early stopping at epoch 163
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5076245340562521
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.5241622574955909
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.4888059701492537
+num_labeled: 50
+Early stopping at epoch 175
+f1_val_isr: 0.4
+f1_test_isr: 0.5107344632768362
+num_labeled: 60
+Early stopping at epoch 154
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5299522234472621
+num_labeled: 70
+Early stopping at epoch 172
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5387725101065785
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5531603945926197
+num_labeled: 90
+Early stopping at epoch 155
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5586181550900405
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5586181550900403
+num_labeled: 110
+Early stopping at epoch 158
+f1_val_isr: 0.6
+f1_test_isr: 0.5573649148778682
+num_labeled: 120
+Early stopping at epoch 157
+f1_val_isr: 0.6
+f1_test_isr: 0.5671313279530448
+num_labeled: 130
+Early stopping at epoch 164
+f1_val_isr: 0.6
+f1_test_isr: 0.5716379626236718
+num_labeled: 140
+Early stopping at epoch 167
+f1_val_isr: 0.6
+f1_test_isr: 0.5736491487786824
+num_labeled: 150
+Early stopping at epoch 187
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5791620318872822
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5758143017596404
+num_labeled: 170
+Early stopping at epoch 156
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5772113943028485
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15845168175159266
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 193
+num_labeled: 10
+Early stopping at epoch 260
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.4329731892757103
+num_labeled: 20
+Early stopping at epoch 163
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5018477457501848
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5132611131864028
+num_labeled: 40
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5093262276360867
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5109546165884193
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5247177890229662
+num_labeled: 70
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.5096040768326147
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5333333333333334
+num_labeled: 90
+Early stopping at epoch 176
+f1_val_isr: 0.6
+f1_test_isr: 0.547673531655225
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5482506728181468
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5451010886469673
+num_labeled: 120
+Early stopping at epoch 159
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5486862442040185
+num_labeled: 130
+Early stopping at epoch 163
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5535026943802925
+num_labeled: 140
+Early stopping at epoch 158
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5619707467282526
+num_labeled: 150
+Early stopping at epoch 173
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5596612779060814
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.56055900621118
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5610894941634242
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1591981937420757
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 193
+num_labeled: 10
+Early stopping at epoch 215
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.4605511513778785
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5246022937476879
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5475482912332837
+num_labeled: 40
+Early stopping at epoch 176
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5493920972644377
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5640449438202247
+num_labeled: 60
+Early stopping at epoch 163
+f1_val_isr: 0.6
+f1_test_isr: 0.5622188905547226
+num_labeled: 70
+Early stopping at epoch 169
+f1_val_isr: 0.6
+f1_test_isr: 0.5666912306558586
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5745937961595274
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5757800891530461
+num_labeled: 100
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.5784569511740588
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5806207418622256
+num_labeled: 120
+Early stopping at epoch 187
+f1_val_isr: 0.6
+f1_test_isr: 0.5809632157755024
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5846621108580106
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5852163921869016
+num_labeled: 150
+Early stopping at epoch 155
+f1_val_isr: 0.6
+f1_test_isr: 0.5853471423091676
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.586286594761171
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5861401471157567
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1585732209667142
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 193
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.32905982905982906
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.4040640875341931
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.42998027613412226
+num_labeled: 40
+Early stopping at epoch 155
+f1_val_isr: 0.6
+f1_test_isr: 0.44743935309973043
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.4284004786597527
+num_labeled: 60
+Early stopping at epoch 166
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.41704219582138463
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.4282218597063621
+num_labeled: 80
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.4325446243254462
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.4504726674886971
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.4415365132967497
+num_labeled: 110
+Early stopping at epoch 157
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.45006216328222126
+num_labeled: 120
+Early stopping at epoch 161
+f1_val_isr: 0.6
+f1_test_isr: 0.44397283531409165
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.4481152054214316
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.4435897435897436
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.44899701237729406
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.4510055626872058
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.45719178082191786
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15906944463567513
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 193
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5460550458715596
+num_labeled: 20
+Early stopping at epoch 161
+f1_val_isr: 0.6
+f1_test_isr: 0.572108843537415
+num_labeled: 30
+Early stopping at epoch 261
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5655456417295813
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5746320953048353
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5716347888848791
+num_labeled: 60
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5823321554770318
+num_labeled: 70
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5799853907962016
+num_labeled: 80
+Early stopping at epoch 159
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5794460641399416
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.585419734904271
+num_labeled: 100
+Early stopping at epoch 158
+f1_val_isr: 0.6
+f1_test_isr: 0.5923473142016188
+num_labeled: 110
+Early stopping at epoch 169
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5899705014749262
+num_labeled: 120
+Early stopping at epoch 160
+f1_val_isr: 0.6
+f1_test_isr: 0.5988200589970502
+num_labeled: 130
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.596218020022247
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.599702380952381
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5989505247376312
+num_labeled: 160
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.6012825348924934
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.6031746031746031
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15809133763891817
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 193
+num_labeled: 10
+Early stopping at epoch 220
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.4709014834537847
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.452661519707436
+num_labeled: 30
+Early stopping at epoch 170
+f1_val_isr: 0.6
+f1_test_isr: 0.40473061760841
+num_labeled: 40
+Early stopping at epoch 190
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.44110060189165945
+num_labeled: 50
+Early stopping at epoch 157
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.454427645788337
+num_labeled: 60
+Early stopping at epoch 168
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4479578392621871
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.44634036820835205
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4635761589403973
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4702750665483585
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4730512249443207
+num_labeled: 110
+Early stopping at epoch 155
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4846870838881492
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.49090102086107407
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4897045658012534
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4901079136690648
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5088967971530248
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5064876957494407
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5091558731576598
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15698298428481525
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6643177450352338
+num_labeled: 20
+Early stopping at epoch 227
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6502529510961215
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6564521620701396
+num_labeled: 40
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6684764166949441
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6653116531165311
+num_labeled: 60
+Early stopping at epoch 166
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6680244399185337
+num_labeled: 70
+Early stopping at epoch 154
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6712328767123288
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6707776635834191
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6717136958017894
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6708246708246708
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6715277777777778
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.672016748080949
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6736621196222456
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6736916051984545
+num_labeled: 150
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6739590684544813
+num_labeled: 160
+Early stopping at epoch 157
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6760961810466761
+num_labeled: 170
+Early stopping at epoch 160
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6758767268862912
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15828549267199338
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 171
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6602931803696621
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6747993579454254
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6712825585229146
+num_labeled: 40
+Early stopping at epoch 157
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6692836113837095
+num_labeled: 50
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6686293752044488
+num_labeled: 60
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6725432582435522
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6732348111658457
+num_labeled: 80
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6739202110121991
+num_labeled: 90
+Early stopping at epoch 160
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6756756756756757
+num_labeled: 100
+Early stopping at epoch 169
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6777188328912467
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6793460126793461
+num_labeled: 120
+Early stopping at epoch 157
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6792199058507061
+num_labeled: 130
+Early stopping at epoch 158
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6821548821548822
+num_labeled: 140
+Early stopping at epoch 164
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6795262267343486
+num_labeled: 150
+Early stopping at epoch 171
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6811397557666214
+num_labeled: 160
+Early stopping at epoch 160
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6813858695652174
+num_labeled: 170
+Early stopping at epoch 159
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6823289070480082
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15285983476126658
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5874999999999999
+num_labeled: 20
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6067924528301887
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.5996131528046421
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.605617545209696
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.607624181748171
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6143187066974596
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6198473282442749
+num_labeled: 80
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6274056966897613
+num_labeled: 90
+Early stopping at epoch 161
+f1_val_isr: 0.8
+f1_test_isr: 0.6243137254901961
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6288619475948377
+num_labeled: 110
+Early stopping at epoch 156
+f1_val_isr: 0.8
+f1_test_isr: 0.6290003951007507
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6270783847980999
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.629614926558158
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6299401197604789
+num_labeled: 150
+Early stopping at epoch 155
+f1_val_isr: 0.8
+f1_test_isr: 0.6307754118119727
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6328093510681178
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6348949919224557
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15857382496498795
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6639370078740157
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6612848974100236
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6492972231744945
+num_labeled: 40
+Early stopping at epoch 191
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6506431956668923
+num_labeled: 50
+Early stopping at epoch 181
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6612244897959183
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6567164179104477
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6538461538461539
+num_labeled: 80
+Early stopping at epoch 169
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6510305614783226
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6530035335689047
+num_labeled: 100
+Early stopping at epoch 159
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6471861471861472
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.6551971326164875
+num_labeled: 120
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.6574945691527879
+num_labeled: 130
+Early stopping at epoch 168
+f1_val_isr: 0.6
+f1_test_isr: 0.6592138478182474
+num_labeled: 140
+Early stopping at epoch 161
+f1_val_isr: 0.6
+f1_test_isr: 0.6591733139956489
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.6593965830607051
+num_labeled: 160
+Early stopping at epoch 160
+f1_val_isr: 0.6
+f1_test_isr: 0.662053896576839
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.6634827332843498
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15777899165049725
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 203
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6628352490421456
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6655518394648828
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6495489243580848
+num_labeled: 40
+Early stopping at epoch 161
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6612244897959184
+num_labeled: 50
+Early stopping at epoch 163
+f1_val_isr: 0.923076923076923
+f1_test_isr: 0.663755458515284
+num_labeled: 60
+Early stopping at epoch 165
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6666666666666667
+num_labeled: 70
+Early stopping at epoch 172
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6680161943319838
+num_labeled: 80
+Early stopping at epoch 167
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6682528891910264
+num_labeled: 90
+Early stopping at epoch 157
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6724316845382221
+num_labeled: 100
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6708333333333334
+num_labeled: 110
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.668999300209937
+num_labeled: 120
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6715893108298172
+num_labeled: 130
+Early stopping at epoch 164
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6737891737891738
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6759656652360515
+num_labeled: 150
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6745604592752064
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6743432889528608
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6717226435536294
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15940571924899977
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6620775969962454
+num_labeled: 20
+Early stopping at epoch 170
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6427196921103271
+num_labeled: 30
+Early stopping at epoch 166
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6630691399662731
+num_labeled: 40
+Early stopping at epoch 156
+f1_val_isr: 0.8
+f1_test_isr: 0.6320346320346321
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6408118883653499
+num_labeled: 60
+Early stopping at epoch 267
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6441048034934498
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.6369937978839838
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.6270310192023633
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.6221215553038882
+num_labeled: 100
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6213444739840486
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6224761904761904
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6224761904761906
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6226487523992322
+num_labeled: 140
+Early stopping at epoch 162
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6222050886661527
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6227730441518203
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6230143355288648
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6230529595015577
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15705021383009776
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 194
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6607650964274423
+num_labeled: 20
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5724164425662697
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5644599303135888
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5708969110532192
+num_labeled: 50
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5904977375565612
+num_labeled: 60
+Early stopping at epoch 157
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5898791540785498
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5897935333073626
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5897133882999607
+num_labeled: 90
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5918609245357566
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5900079302141158
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5908548707753478
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5917065390749602
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5887585928022646
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5888572590483937
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5934959349593496
+num_labeled: 160
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5951895637994292
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5976258698321736
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15987959885642922
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 212
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.47797716150081565
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.47929736511919696
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5188916876574308
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5370675453047776
+num_labeled: 50
+Early stopping at epoch 158
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5405857740585774
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5160157964019306
+num_labeled: 70
+Early stopping at epoch 160
+f1_val_isr: 0.6
+f1_test_isr: 0.5262697022767076
+num_labeled: 80
+Early stopping at epoch 186
+f1_val_isr: 0.6
+f1_test_isr: 0.5162438807298619
+num_labeled: 90
+Early stopping at epoch 208
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5115020297699593
+num_labeled: 100
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5095715587967183
+num_labeled: 110
+Early stopping at epoch 185
+f1_val_isr: 0.6
+f1_test_isr: 0.5148605395518976
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5180722891566265
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.518963922294172
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.5
+f1_test_isr: 0.5199258572752549
+num_labeled: 150
+Early stopping at epoch 160
+f1_val_isr: 0.5
+f1_test_isr: 0.5245143385753932
+num_labeled: 160
+Early stopping at epoch 175
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5281625115420129
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5278810408921932
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15939665639940825
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 174
+num_labeled: 10
+Early stopping at epoch 189
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6560648581228563
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6366279069767441
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.629080118694362
+num_labeled: 40
+Early stopping at epoch 164
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6297502714440826
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5926511260371394
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5971896955503513
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.607912260086173
+num_labeled: 80
+Early stopping at epoch 160
+f1_val_isr: 0.5
+f1_test_isr: 0.6135739505688506
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.5
+f1_test_isr: 0.6114195083267248
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.5
+f1_test_isr: 0.6178217821782177
+num_labeled: 110
+Early stopping at epoch 154
+f1_val_isr: 0.5
+f1_test_isr: 0.6231827111984284
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.5
+f1_test_isr: 0.6170382165605096
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.5
+f1_test_isr: 0.6238532110091743
+num_labeled: 140
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6287758346581875
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6261008807045637
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6263516219463356
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6241883116883116
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1554468600339098
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.4219378427787935
+num_labeled: 20
+Early stopping at epoch 165
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5115758028379388
+num_labeled: 30
+Early stopping at epoch 173
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5561535701471116
+num_labeled: 40
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5978449774070212
+num_labeled: 50
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6137714085983923
+num_labeled: 60
+Early stopping at epoch 157
+f1_val_isr: 0.8571428571428571
+f1_test_isr: 0.6199110502907972
+num_labeled: 70
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6242695084221382
+num_labeled: 80
+Early stopping at epoch 159
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6270718232044199
+num_labeled: 90
+Early stopping at epoch 159
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6269592476489028
+num_labeled: 100
+Early stopping at epoch 185
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6287744227353463
+num_labeled: 110
+Early stopping at epoch 169
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6268656716417911
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6256703611011799
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6285919540229885
+num_labeled: 140
+Early stopping at epoch 169
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6258652094717668
+num_labeled: 150
+Early stopping at epoch 170
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6345875542691751
+num_labeled: 160
+Early stopping at epoch 170
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6366279069767441
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.638189120116831
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15664539854734316
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.49562682215743437
+num_labeled: 20
+Early stopping at epoch 164
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.49396735273243436
+num_labeled: 30
+Early stopping at epoch 227
+f1_val_isr: 0.8571428571428571
+f1_test_isr: 0.5945945945945946
+num_labeled: 40
+Early stopping at epoch 169
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5847589424572317
+num_labeled: 50
+Early stopping at epoch 161
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5898646521875983
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6053283767038414
+num_labeled: 70
+Early stopping at epoch 164
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.613615169412496
+num_labeled: 80
+Early stopping at epoch 157
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.615721891637958
+num_labeled: 90
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6219822109275732
+num_labeled: 100
+Early stopping at epoch 185
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6242118537200505
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6280938604950178
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6301369863013699
+num_labeled: 130
+Early stopping at epoch 156
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6274380165289256
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6247922897972749
+num_labeled: 150
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.625
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6275838698746189
+num_labeled: 170
+Early stopping at epoch 159
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6272108843537416
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1579346354212546
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 167
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6342710997442456
+num_labeled: 20
+Early stopping at epoch 154
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.5698155814828754
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6077472734110568
+num_labeled: 40
+Early stopping at epoch 174
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6188876446435236
+num_labeled: 50
+Early stopping at epoch 169
+f1_val_isr: 0.8
+f1_test_isr: 0.617737003058104
+num_labeled: 60
+Early stopping at epoch 155
+f1_val_isr: 0.8
+f1_test_isr: 0.623606305267205
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.625804010594022
+num_labeled: 80
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6288737717309145
+num_labeled: 90
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6356821589205397
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.63567649281935
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6365030674846626
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.6400613967766692
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6389850057670127
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.6404624277456648
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6430496726992683
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6447622729029765
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6499032882011606
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15586728937629
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 156
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5761567038162783
+num_labeled: 20
+Early stopping at epoch 171
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.5369406867845994
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.5690259285213735
+num_labeled: 40
+Early stopping at epoch 164
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.564434845212383
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.5911994322214337
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6121593291404612
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.604332129963899
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.5988200589970502
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6129851287631483
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6187363834422658
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6225454545454546
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.618699780861943
+num_labeled: 130
+Early stopping at epoch 153
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6222547584187408
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6299963329666299
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6281721221037146
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.632277081798084
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6340378197997775
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.16134723602429246
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 157
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.4800580130529369
+num_labeled: 20
+Early stopping at epoch 165
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5927960927960928
+num_labeled: 30
+Early stopping at epoch 156
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.611863896416742
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6147741147741147
+num_labeled: 50
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6257741079327632
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6329946204423192
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6361974405850092
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6380631320870365
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6345975948196115
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6389658356417359
+num_labeled: 110
+Early stopping at epoch 159
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6388373531230674
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6399499060738886
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6426127527216173
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6445349201378014
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6469104665825978
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6449367088607595
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6452433980273624
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1591244054812533
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 167
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6046077210460772
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.5545949407620877
+num_labeled: 30
+Early stopping at epoch 178
+f1_val_isr: 0.923076923076923
+f1_test_isr: 0.5815516188149054
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.5869764597982269
+num_labeled: 50
+Early stopping at epoch 162
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.5890368535150202
+num_labeled: 60
+Early stopping at epoch 169
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6014158202523854
+num_labeled: 70
+Early stopping at epoch 161
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6046369737644907
+num_labeled: 80
+Early stopping at epoch 159
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.5992366412213741
+num_labeled: 90
+Early stopping at epoch 163
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6046511627906976
+num_labeled: 100
+Early stopping at epoch 171
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6110406091370558
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6199426568971009
+num_labeled: 120
+Early stopping at epoch 171
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6158282601730214
+num_labeled: 130
+Early stopping at epoch 179
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6204896907216496
+num_labeled: 140
+Early stopping at epoch 169
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6212903225806452
+num_labeled: 150
+Early stopping at epoch 167
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6239067055393587
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.626953125
+num_labeled: 170
+Early stopping at epoch 194
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6245869134170523
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15836217888660842
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5179711118575748
+num_labeled: 20
+Early stopping at epoch 178
+f1_val_isr: 0.6
+f1_test_isr: 0.568758344459279
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.640805448623038
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6182389937106919
+num_labeled: 50
+Early stopping at epoch 276
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6295476115153432
+num_labeled: 60
+Early stopping at epoch 155
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6288659793814434
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6330749354005168
+num_labeled: 80
+Early stopping at epoch 157
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6336633663366337
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6339673006339673
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6334781156030739
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6396457765667575
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6412371134020619
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6312849162011174
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6359154929577465
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6345609065155807
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6364942528735633
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6370157819225252
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15825014249480682
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 157
+f1_val_isr: 0.6
+f1_test_isr: 0.49246575342465754
+num_labeled: 20
+Early stopping at epoch 154
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5582303188028627
+num_labeled: 30
+Early stopping at epoch 168
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5440718976840649
+num_labeled: 40
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.570754716981132
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6055592322964923
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6054421768707483
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6153321976149915
+num_labeled: 80
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6215759215421035
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6087844739530133
+num_labeled: 100
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6073514256269323
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6112066002062565
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6118055555555556
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6195239737840633
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.61875
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6271944922547332
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.627979274611399
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.629182476716109
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15001091173348657
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 190
+num_labeled: 10
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5283917035022102
+num_labeled: 20
+Early stopping at epoch 169
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6121927864666454
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5935397039030955
+num_labeled: 40
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5384896023349143
+num_labeled: 50
+Early stopping at epoch 155
+f1_val_isr: 0.6
+f1_test_isr: 0.5137195121951219
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5060334760607239
+num_labeled: 70
+Early stopping at epoch 160
+f1_val_isr: 0.6
+f1_test_isr: 0.5064579256360078
+num_labeled: 80
+Early stopping at epoch 164
+f1_val_isr: 0.6
+f1_test_isr: 0.5135241081928655
+num_labeled: 90
+Early stopping at epoch 158
+f1_val_isr: 0.6
+f1_test_isr: 0.5162324649298597
+num_labeled: 100
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.5266507557677009
+num_labeled: 110
+Early stopping at epoch 157
+f1_val_isr: 0.6
+f1_test_isr: 0.5344418052256532
+num_labeled: 120
+Early stopping at epoch 170
+f1_val_isr: 0.6
+f1_test_isr: 0.5493730407523512
+num_labeled: 130
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.552538370720189
+num_labeled: 140
+Early stopping at epoch 161
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.5525691699604743
+num_labeled: 150
+Early stopping at epoch 156
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5595611285266457
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.5
+f1_test_isr: 0.5704280155642023
+num_labeled: 170
+Early stopping at epoch 158
+f1_val_isr: 0.5
+f1_test_isr: 0.5714285714285714
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15802579356707228
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.38254172015404364
+num_labeled: 20
+Early stopping at epoch 156
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.5119506553585197
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6386206896551725
+num_labeled: 40
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.639597556593604
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.6427235316124205
+num_labeled: 60
+Early stopping at epoch 157
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6456808199121522
+num_labeled: 70
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6536333456289192
+num_labeled: 80
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6567717996289425
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6575037147102526
+num_labeled: 100
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6599477416946622
+num_labeled: 110
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6556141672946495
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6598946576373212
+num_labeled: 130
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6616428033157498
+num_labeled: 140
+Early stopping at epoch 159
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6641594584430237
+num_labeled: 150
+Early stopping at epoch 159
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6646502835538753
+num_labeled: 160
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6669195751138087
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6684410646387833
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15774801116420253
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.3695369969710082
+num_labeled: 20
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5672727272727273
+num_labeled: 30
+Early stopping at epoch 156
+f1_val_isr: 0.25
+f1_test_isr: 0.5500381970970207
+num_labeled: 40
+Early stopping at epoch 162
+f1_val_isr: 0.25
+f1_test_isr: 0.5584761904761906
+num_labeled: 50
+Early stopping at epoch 158
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5634441087613292
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5676492819349962
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.558902020587114
+num_labeled: 80
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5611620795107034
+num_labeled: 90
+Early stopping at epoch 159
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.560154738878143
+num_labeled: 100
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.563129357087529
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.566886390073672
+num_labeled: 120
+Early stopping at epoch 154
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5681995323460638
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.566614420062696
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5678133649663899
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.569279493269992
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5709741550695824
+num_labeled: 170
+Early stopping at epoch 157
+f1_val_isr: 0.5
+f1_test_isr: 0.5694888178913737
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15900590650774502
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.49215070643642067
+num_labeled: 20
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.577922077922078
+num_labeled: 30
+Early stopping at epoch 157
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.596479116327235
+num_labeled: 40
+Early stopping at epoch 225
+f1_val_isr: 0.6
+f1_test_isr: 0.5913902611150318
+num_labeled: 50
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5930031174229304
+num_labeled: 60
+Early stopping at epoch 167
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5954415954415955
+num_labeled: 70
+Early stopping at epoch 188
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.5955137481910275
+num_labeled: 80
+Early stopping at epoch 173
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6116887773395482
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6188734455010974
+num_labeled: 100
+Early stopping at epoch 156
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6227941176470588
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6256900993743099
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.6
+f1_test_isr: 0.6192065257693734
+num_labeled: 130
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.6295057599405425
+num_labeled: 140
+Early stopping at epoch 163
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6294227188081937
+num_labeled: 150
+Early stopping at epoch 162
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6313017306245298
+num_labeled: 160
+Early stopping at epoch 179
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6345139412207987
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6346081029912912
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1448248674873064
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5148362235067437
+num_labeled: 20
+Early stopping at epoch 170
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6406633906633907
+num_labeled: 30
+Early stopping at epoch 163
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6612296110414052
+num_labeled: 40
+Early stopping at epoch 177
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6534905961109341
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.655161393416427
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6587019696480464
+num_labeled: 70
+Early stopping at epoch 157
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.657903174094261
+num_labeled: 80
+Early stopping at epoch 159
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6627906976744187
+num_labeled: 90
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6629977338944643
+num_labeled: 100
+Early stopping at epoch 157
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6642787365678933
+num_labeled: 110
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6647078028077049
+num_labeled: 120
+Early stopping at epoch 186
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6668852459016394
+num_labeled: 130
+Early stopping at epoch 172
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6679815910585141
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6684245220830587
+num_labeled: 150
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6686507936507937
+num_labeled: 160
+Early stopping at epoch 174
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6682165393556958
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.667998667998668
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15774541106689735
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.48909657320872274
+num_labeled: 20
+Early stopping at epoch 170
+f1_val_isr: 0.6
+f1_test_isr: 0.4842105263157894
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.49371706526145115
+num_labeled: 40
+Early stopping at epoch 174
+f1_val_isr: 0.4
+f1_test_isr: 0.5067945643485212
+num_labeled: 50
+Early stopping at epoch 159
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.49333333333333335
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4946876328091798
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5170691090757702
+num_labeled: 80
+Early stopping at epoch 158
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5230642504118616
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5330053300533005
+num_labeled: 100
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5294117647058824
+num_labeled: 110
+Early stopping at epoch 154
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5317295727913729
+num_labeled: 120
+Early stopping at epoch 154
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.54177005789909
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5396825396825398
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.546979865771812
+num_labeled: 150
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.5465942331801087
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5494780793319415
+num_labeled: 170
+Early stopping at epoch 157
+f1_val_isr: 0.6
+f1_test_isr: 0.5517819706498952
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.16006116318410393
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 174
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.582703058204538
+num_labeled: 20
+Early stopping at epoch 153
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6228893058161352
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6339573918657198
+num_labeled: 40
+Early stopping at epoch 172
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6325340246273494
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6398713826366559
+num_labeled: 60
+Early stopping at epoch 156
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.638996138996139
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6366307541625857
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6439669421487604
+num_labeled: 90
+Early stopping at epoch 157
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6492462311557788
+num_labeled: 100
+Early stopping at epoch 166
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6428571428571429
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6499321573948439
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6517615176151761
+num_labeled: 130
+Early stopping at epoch 159
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6500512120177535
+num_labeled: 140
+Early stopping at epoch 156
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6511149228130361
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6513383665065202
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6519031141868512
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6495132127955494
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1541103294567122
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5762376237623762
+num_labeled: 20
+Early stopping at epoch 164
+f1_val_isr: 0.6
+f1_test_isr: 0.4491763760546404
+num_labeled: 30
+Early stopping at epoch 167
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4440692275221613
+num_labeled: 40
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4894991922455574
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.49899071457408156
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4868475991649269
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.49308176100628925
+num_labeled: 80
+Early stopping at epoch 183
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4993608862377503
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.49808429118773956
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5010836584308627
+num_labeled: 110
+Early stopping at epoch 155
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5111876075731498
+num_labeled: 120
+Early stopping at epoch 161
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.508870618779749
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5218884120171674
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.520121159671138
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5254529767040553
+num_labeled: 160
+Early stopping at epoch 158
+f1_val_isr: 0.6
+f1_test_isr: 0.5259965337954939
+num_labeled: 170
+Early stopping at epoch 169
+f1_val_isr: 0.6
+f1_test_isr: 0.5246753246753247
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15608943266004197
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6058174523570712
+num_labeled: 20
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6272939606272939
+num_labeled: 30
+Early stopping at epoch 158
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6244343891402715
+num_labeled: 40
+Early stopping at epoch 168
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6335403726708074
+num_labeled: 50
+Early stopping at epoch 157
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6217406027768371
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6175485599464167
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.6317948717948718
+num_labeled: 80
+Early stopping at epoch 181
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6258407079646018
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.5
+f1_test_isr: 0.6095914742451154
+num_labeled: 100
+Early stopping at epoch 161
+f1_val_isr: 0.5
+f1_test_isr: 0.6045824094604583
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.5
+f1_test_isr: 0.6020369671821955
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.5
+f1_test_isr: 0.6007722007722007
+num_labeled: 130
+Early stopping at epoch 157
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6006240249609983
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6100000000000001
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6130150173276858
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6103795507358637
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6089668615984406
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15783900535858045
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.5906913073237509
+num_labeled: 20
+Early stopping at epoch 158
+f1_val_isr: 0.6
+f1_test_isr: 0.5034454803404945
+num_labeled: 30
+Early stopping at epoch 162
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6185276505811905
+num_labeled: 40
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6372787226657411
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6371994342291372
+num_labeled: 60
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6274089935760171
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6327116212338595
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.638480831243282
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6438258386866523
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6409516943042537
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6345233713654767
+num_labeled: 120
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6370315944158708
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6385321100917432
+num_labeled: 140
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6423623769595334
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6443051971986731
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6436443791329904
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6453038674033149
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.16047446836367782
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6445287792536369
+num_labeled: 20
+Early stopping at epoch 186
+f1_val_isr: 0.8571428571428571
+f1_test_isr: 0.6508728179551123
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6454659949622166
+num_labeled: 40
+Early stopping at epoch 156
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6541281479120179
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6585677749360614
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6556438791732909
+num_labeled: 70
+Early stopping at epoch 171
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6516998075689544
+num_labeled: 80
+Early stopping at epoch 191
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6533247256294384
+num_labeled: 90
+Early stopping at epoch 180
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6529814271749756
+num_labeled: 100
+Early stopping at epoch 157
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6520887728459529
+num_labeled: 110
+Early stopping at epoch 163
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.655511811023622
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6560951437066402
+num_labeled: 130
+Early stopping at epoch 195
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6569439840901556
+num_labeled: 140
+Early stopping at epoch 179
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.657379767827529
+num_labeled: 150
+Early stopping at epoch 179
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.658870698296024
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6592816381336019
+num_labeled: 170
+Early stopping at epoch 184
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6601680672268908
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1492549165607153
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6287553648068669
+num_labeled: 20
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5607115235885538
+num_labeled: 30
+Early stopping at epoch 295
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5251658213031604
+num_labeled: 40
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5609268877347183
+num_labeled: 50
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5412244897959184
+num_labeled: 60
+Early stopping at epoch 159
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5761511216056671
+num_labeled: 70
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5789684126349461
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5903369874137232
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5929810407422347
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5753538717735219
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5890580008227067
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5924404272801972
+num_labeled: 130
+Early stopping at epoch 157
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5850622406639006
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5917944467467883
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5911740216486261
+num_labeled: 160
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.592407175636212
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.592623637887678
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1480823295278582
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 193
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6478605388272584
+num_labeled: 20
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5985815602836879
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6286286286286287
+num_labeled: 40
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6334567485695051
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6480218281036835
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6418378002088408
+num_labeled: 70
+Early stopping at epoch 171
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6463033668864978
+num_labeled: 80
+Early stopping at epoch 164
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6481223922114048
+num_labeled: 90
+Early stopping at epoch 165
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6503153468815698
+num_labeled: 100
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6482465462274175
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6524973432518597
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6517094017094016
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6516613076098607
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6508279337652987
+num_labeled: 150
+Early stopping at epoch 158
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6544011544011544
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6551101480678946
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6553098948894527
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15606682632007038
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6559382040553587
+num_labeled: 20
+Early stopping at epoch 263
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6372450685389502
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6132075471698112
+num_labeled: 40
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6330178759200842
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6327193932827735
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6350018268176837
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6316568047337279
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6350500185253797
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6396731054977712
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6404788627010849
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6426696662917135
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.643582988332706
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6432616081540204
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.643669446550417
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.645579268292683
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6452844597174494
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6465648854961833
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15580991485262682
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6352485474499677
+num_labeled: 20
+Early stopping at epoch 179
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6260191421481744
+num_labeled: 30
+Early stopping at epoch 170
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6349757113115891
+num_labeled: 40
+Early stopping at epoch 167
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6322534709861161
+num_labeled: 50
+Early stopping at epoch 177
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6407079646017699
+num_labeled: 60
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6470798996775349
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6461872063606795
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6457954131780124
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6520627966411099
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.651128914785142
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6527319398606527
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6547183613752743
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6553505535055351
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6522870955745631
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6503575461046293
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6505111700113594
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6504559270516718
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15575681795556617
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6564636926082709
+num_labeled: 20
+Early stopping at epoch 152
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6145110410094637
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6448122215149587
+num_labeled: 40
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.6152256286600069
+num_labeled: 50
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5997873094647288
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6201443795118597
+num_labeled: 70
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6205200281096276
+num_labeled: 80
+Early stopping at epoch 162
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6264975334742776
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6261484098939929
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6294452347083925
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6294964028776978
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6302367941712204
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6292880855772778
+num_labeled: 140
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6306504961411246
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6311505734369219
+num_labeled: 160
+Early stopping at epoch 172
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6312267657992565
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6342557965594615
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15603492163307647
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6417148690030623
+num_labeled: 20
+Early stopping at epoch 158
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5409967845659164
+num_labeled: 30
+Early stopping at epoch 164
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5298126064735945
+num_labeled: 40
+Early stopping at epoch 160
+f1_val_isr: 0.8
+f1_test_isr: 0.6017488076311606
+num_labeled: 50
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.6000795861520096
+num_labeled: 60
+Early stopping at epoch 157
+f1_val_isr: 0.8
+f1_test_isr: 0.6196957566052843
+num_labeled: 70
+Early stopping at epoch 158
+f1_val_isr: 0.8
+f1_test_isr: 0.6050420168067225
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.6107114308553157
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6113782051282051
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6111560226354082
+num_labeled: 110
+Early stopping at epoch 155
+f1_val_isr: 0.8
+f1_test_isr: 0.612942612942613
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.8
+f1_test_isr: 0.6134419551934827
+num_labeled: 130
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.61620294599018
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.6208299430431246
+num_labeled: 150
+Early stopping at epoch 160
+f1_val_isr: 0.8
+f1_test_isr: 0.6259168704156479
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.6270358306188926
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6254604993860008
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15639245371537935
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6484575835475579
+num_labeled: 20
+Early stopping at epoch 170
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5111464968152866
+num_labeled: 30
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5594512195121951
+num_labeled: 40
+Early stopping at epoch 170
+f1_val_isr: 0.8
+f1_test_isr: 0.5623028391167193
+num_labeled: 50
+Early stopping at epoch 170
+f1_val_isr: 0.8
+f1_test_isr: 0.5706349206349207
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.578293952743292
+num_labeled: 70
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5832012678288431
+num_labeled: 80
+Early stopping at epoch 163
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5879967558799676
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5985518905872887
+num_labeled: 100
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5986448784376246
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6041834271922768
+num_labeled: 120
+Early stopping at epoch 167
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6055712555510698
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6034201954397393
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6050488599348535
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6063829787234042
+num_labeled: 160
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6080196399345335
+num_labeled: 170
+Early stopping at epoch 160
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6038047973531844
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1600495143465835
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6538703587161737
+num_labeled: 20
+Early stopping at epoch 182
+f1_val_isr: 0.8
+f1_test_isr: 0.6053054662379421
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6196531791907515
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5823851664559628
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6009005321326238
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.618933969769292
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6046511627906976
+num_labeled: 80
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6158730158730159
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6146458583433373
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6144578313253013
+num_labeled: 110
+Early stopping at epoch 176
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6176
+num_labeled: 120
+Early stopping at epoch 189
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6179188429087986
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6224
+num_labeled: 140
+Early stopping at epoch 172
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6245980707395499
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6273092369477911
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6277845281490482
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6277845281490482
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15349399171710815
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+Early stopping at epoch 170
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6124999999999999
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.575858250276855
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5978835978835979
+num_labeled: 40
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5998463901689708
+num_labeled: 50
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6059421422986708
+num_labeled: 60
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5960159362549801
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6095461658841941
+num_labeled: 80
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6135831381733021
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5970506177760065
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6012759170653907
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6062773142630116
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6069295101553165
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6104928457869634
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6126844834463502
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6130976295701085
+num_labeled: 160
+Early stopping at epoch 160
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6174227217984745
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6212182331585316
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1558136444554587
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6427613941018766
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6539768864717879
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6624834874504624
+num_labeled: 40
+Early stopping at epoch 166
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.659815005138746
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6632302405498282
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6650519031141869
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6640735502121641
+num_labeled: 80
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6616968406105785
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6633309506790563
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6680957484816006
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.664257318395374
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6644903881030105
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6656987295825771
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6659356725146199
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6659324522760645
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6644469108398076
+num_labeled: 170
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6651818856718635
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15966301491061669
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6063072227873856
+num_labeled: 20
+Early stopping at epoch 205
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6301564722617353
+num_labeled: 30
+Early stopping at epoch 157
+f1_val_isr: 0.6
+f1_test_isr: 0.6349206349206349
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6205389657683903
+num_labeled: 50
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6317311167329237
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6350470673425054
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6416726748377793
+num_labeled: 80
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6430379746835443
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.6491803278688525
+num_labeled: 100
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6519174041297935
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6563421828908556
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.652287095574563
+num_labeled: 130
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6537890044576523
+num_labeled: 140
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6569832402234637
+num_labeled: 150
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6569397680508792
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6546411123637731
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6550812240272006
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1569464350299616
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5148902821316614
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4295652173913043
+num_labeled: 30
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.4723618090452261
+num_labeled: 40
+Early stopping at epoch 180
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4505446623093682
+num_labeled: 50
+Early stopping at epoch 176
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4524966858152894
+num_labeled: 60
+Early stopping at epoch 157
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.46466431095406363
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4687920969914684
+num_labeled: 80
+Early stopping at epoch 159
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4655797101449275
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.45848708487084877
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.45997223507635354
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.46261031119368323
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4699860400186133
+num_labeled: 130
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.47888631090487244
+num_labeled: 140
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4797013532431172
+num_labeled: 150
+Early stopping at epoch 157
+f1_val_isr: 0.6
+f1_test_isr: 0.48343443770415306
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.48787313432835816
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.4958061509785647
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15830471931679124
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+Early stopping at epoch 173
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6050933786078099
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5996758508914102
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6043351666127467
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6014939915556998
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6084690553745928
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6075782537067547
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6129990102276476
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6173570019723866
+num_labeled: 90
+Early stopping at epoch 157
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6203703703703703
+num_labeled: 100
+Early stopping at epoch 155
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6243739565943239
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.6251263051532502
+num_labeled: 120
+Early stopping at epoch 155
+f1_val_isr: 0.6
+f1_test_isr: 0.6303528605686879
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.6351397997928893
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.6362369337979095
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.63665142455153
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.6404255319148936
+num_labeled: 170
+Early stopping at epoch 161
+f1_val_isr: 0.6
+f1_test_isr: 0.6436454254182984
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15759207562908906
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+Early stopping at epoch 171
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6105535772094529
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5662417921977598
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.49217391304347824
+num_labeled: 40
+Early stopping at epoch 178
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.4362101313320825
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.2857142857142857
+f1_test_isr: 0.37051993942453304
+num_labeled: 60
+Early stopping at epoch 188
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.4073158675234799
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.5
+f1_test_isr: 0.43250950570342206
+num_labeled: 80
+Early stopping at epoch 191
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.4669479606188467
+num_labeled: 90
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.47654435671156525
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.48352668213457073
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.4872152487215249
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.49604467194043733
+num_labeled: 130
+Early stopping at epoch 160
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5004668534080299
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.4910122989593188
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.49456264775413716
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.48857142857142866
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.493098524512137
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15586645918936226
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6239086635325722
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.5870543440636898
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.594927536231884
+num_labeled: 40
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5879716100112066
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6147058823529411
+num_labeled: 60
+Early stopping at epoch 154
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.610944527736132
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.6169818316648128
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.6156716417910448
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.4
+f1_test_isr: 0.6205089820359282
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.4
+f1_test_isr: 0.6224719101123595
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.4
+f1_test_isr: 0.6325997762029094
+num_labeled: 120
+Early stopping at epoch 183
+f1_val_isr: 0.4
+f1_test_isr: 0.6342193934855859
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.6369426751592356
+num_labeled: 140
+Early stopping at epoch 177
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.636568848758465
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6397889977392615
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6414809217982621
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6402740768937952
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15715170413326462
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+Early stopping at epoch 161
+f1_val_isr: 0.6
+f1_test_isr: 0.5022935779816514
+num_labeled: 20
+Early stopping at epoch 160
+f1_val_isr: 0.6
+f1_test_isr: 0.514081713605712
+num_labeled: 30
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.5623777864685178
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5730706075533661
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5741666666666667
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.558974358974359
+num_labeled: 70
+Early stopping at epoch 163
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5780924614743856
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5753424657534246
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.5
+f1_test_isr: 0.5773552290406224
+num_labeled: 100
+Early stopping at epoch 156
+f1_val_isr: 0.5
+f1_test_isr: 0.5731601731601731
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.5
+f1_test_isr: 0.5765372873964238
+num_labeled: 120
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.577893820713664
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.581913499344692
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.588748364587876
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5901495162708883
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5908289241622575
+num_labeled: 170
+Early stopping at epoch 159
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5931156222418357
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15801602714941174
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 203
+num_labeled: 10
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6038709677419355
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6409749670619236
+num_labeled: 30
+Early stopping at epoch 171
+f1_val_isr: 0.6
+f1_test_isr: 0.6273568735001714
+num_labeled: 40
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.6289131199437213
+num_labeled: 50
+Early stopping at epoch 162
+f1_val_isr: 0.6
+f1_test_isr: 0.6323633782824699
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6333572969086988
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6337568058076225
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6406135865595324
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6451612903225807
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6491228070175438
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6510091743119266
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.653211009174312
+num_labeled: 130
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6507000736919677
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6506113375324194
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6515601783060921
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6522226372805379
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6524184476940382
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15756615385374545
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.4462875197472354
+num_labeled: 20
+Early stopping at epoch 225
+f1_val_isr: 0.6
+f1_test_isr: 0.4559800664451827
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4466695690030475
+num_labeled: 40
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4461469130238846
+num_labeled: 50
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4740932642487047
+num_labeled: 60
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.4774356811471953
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5055854364915184
+num_labeled: 80
+Early stopping at epoch 163
+f1_val_isr: 0.6
+f1_test_isr: 0.5120532003325021
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5226710634789777
+num_labeled: 100
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.5248756218905473
+num_labeled: 110
+Early stopping at epoch 160
+f1_val_isr: 0.6
+f1_test_isr: 0.5271966527196653
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.515358361774744
+num_labeled: 130
+Early stopping at epoch 159
+f1_val_isr: 0.6
+f1_test_isr: 0.521181001283697
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5368956743002544
+num_labeled: 150
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5352839931153185
+num_labeled: 160
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5417916845263608
+num_labeled: 170
+Early stopping at epoch 163
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5452984113353371
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15896800562825447
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6233354470513633
+num_labeled: 20
+Early stopping at epoch 168
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6423405654174884
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6379252273492758
+num_labeled: 40
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6385500174276751
+num_labeled: 50
+Early stopping at epoch 157
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6503325166258314
+num_labeled: 60
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.651530787753698
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6542443064182194
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.656282450674974
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6543296089385475
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6568109820485745
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6598447424135497
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6636171710063336
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6626591230551626
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6640680368532954
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.665481692143619
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6647605432451751
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6657112146184163
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15798744508650492
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.41680814940577243
+num_labeled: 20
+Early stopping at epoch 160
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.4979050279329609
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.576534052596089
+num_labeled: 40
+Early stopping at epoch 163
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6050251256281407
+num_labeled: 50
+Early stopping at epoch 161
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6229508196721311
+num_labeled: 60
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6303630363036303
+num_labeled: 70
+Early stopping at epoch 160
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6356902356902357
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6464163822525598
+num_labeled: 90
+Early stopping at epoch 156
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6457680250783698
+num_labeled: 100
+Early stopping at epoch 159
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6408106219426976
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6394606103619589
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6401148188015787
+num_labeled: 130
+Early stopping at epoch 153
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6457814168743325
+num_labeled: 140
+Early stopping at epoch 160
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6480203414456956
+num_labeled: 150
+Early stopping at epoch 154
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6402349486049926
+num_labeled: 160
+Early stopping at epoch 162
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.645686782673084
+num_labeled: 170
+Early stopping at epoch 155
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6459813084112149
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1551343593053518
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 238
+f1_val_isr: 0.8
+f1_test_isr: 0.6228739002932551
+num_labeled: 20
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6418982204183579
+num_labeled: 30
+Early stopping at epoch 158
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5969275786393563
+num_labeled: 40
+Early stopping at epoch 186
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.5852631578947368
+num_labeled: 50
+Early stopping at epoch 161
+f1_val_isr: 0.4615384615384615
+f1_test_isr: 0.5585454545454546
+num_labeled: 60
+Early stopping at epoch 169
+f1_val_isr: 0.4615384615384615
+f1_test_isr: 0.5420353982300885
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5676790401199849
+num_labeled: 80
+Early stopping at epoch 154
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.5870460501684762
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.4
+f1_test_isr: 0.6005241482590791
+num_labeled: 100
+Early stopping at epoch 154
+f1_val_isr: 0.4
+f1_test_isr: 0.5958095238095238
+num_labeled: 110
+Early stopping at epoch 154
+f1_val_isr: 0.4
+f1_test_isr: 0.607361963190184
+num_labeled: 120
+Early stopping at epoch 164
+f1_val_isr: 0.6
+f1_test_isr: 0.60940536338904
+num_labeled: 130
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.6167711598746081
+num_labeled: 140
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.6235801018409715
+num_labeled: 150
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.6236220472440945
+num_labeled: 160
+Early stopping at epoch 161
+f1_val_isr: 0.6
+f1_test_isr: 0.6283916633896972
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6314127861089188
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15651141664124515
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 221
+f1_val_isr: 0.8571428571428571
+f1_test_isr: 0.6122953351869015
+num_labeled: 20
+Early stopping at epoch 181
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6138248847926268
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6182507104515315
+num_labeled: 40
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6376903553299493
+num_labeled: 50
+Early stopping at epoch 166
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6498263340700978
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6462128475551294
+num_labeled: 70
+Early stopping at epoch 166
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6440894568690096
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6447073872721458
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6443167305236271
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6489465153970827
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6488056810845707
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.653047989623865
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6523297491039427
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6520744854622672
+num_labeled: 150
+Early stopping at epoch 155
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6539849130862578
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.654390003288392
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6561264822134387
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15778857160020052
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 252
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6352108522559717
+num_labeled: 20
+Early stopping at epoch 163
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6283478784231117
+num_labeled: 30
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6301201108715738
+num_labeled: 40
+Early stopping at epoch 181
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6371951219512195
+num_labeled: 50
+Early stopping at epoch 204
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6476603656647041
+num_labeled: 60
+Early stopping at epoch 156
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6530995616781464
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6540880503144654
+num_labeled: 80
+Early stopping at epoch 158
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6530351437699682
+num_labeled: 90
+Early stopping at epoch 155
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.659397049390635
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6600512163892446
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6606276285991589
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6595052083333334
+num_labeled: 130
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6620959843290891
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6611896155110089
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6662277814351547
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6646805693478981
+num_labeled: 170
+Early stopping at epoch 157
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.663563829787234
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15898942777972816
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5290611028315948
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.46481876332622596
+num_labeled: 30
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.4707357859531772
+num_labeled: 40
+Early stopping at epoch 160
+f1_val_isr: 0.6
+f1_test_isr: 0.4930156121610518
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.49176376054640425
+num_labeled: 60
+Early stopping at epoch 178
+f1_val_isr: 0.6
+f1_test_isr: 0.5035742652899127
+num_labeled: 70
+Early stopping at epoch 172
+f1_val_isr: 0.6
+f1_test_isr: 0.5002030044660982
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.512204881952781
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5124236252545825
+num_labeled: 100
+Early stopping at epoch 176
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5201938610662358
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5107794361525705
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5095435684647303
+num_labeled: 130
+Early stopping at epoch 157
+f1_val_isr: 0.6
+f1_test_isr: 0.5145910398684751
+num_labeled: 140
+Early stopping at epoch 209
+f1_val_isr: 0.6
+f1_test_isr: 0.5101449275362319
+num_labeled: 150
+Early stopping at epoch 184
+f1_val_isr: 0.6
+f1_test_isr: 0.5139991642290013
+num_labeled: 160
+Early stopping at epoch 174
+f1_val_isr: 0.6
+f1_test_isr: 0.5189820609094702
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5209731543624162
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15906855389296148
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5184094256259205
+num_labeled: 20
+Early stopping at epoch 176
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6001283697047497
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6226964112512124
+num_labeled: 40
+Early stopping at epoch 167
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6210596914822267
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5950877192982457
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6099439775910365
+num_labeled: 70
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6056537102473499
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6020589279375221
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6093750000000001
+num_labeled: 100
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6116295764536971
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6123919308357348
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6200215285252959
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6157173756308579
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6164433176385368
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6122448979591836
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.611704085388296
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6148175451529672
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15817161333734325
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 186
+num_labeled: 10
+Early stopping at epoch 243
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6454753722794961
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6243965239781138
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6172755206555138
+num_labeled: 40
+Early stopping at epoch 158
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.625810635538262
+num_labeled: 50
+Early stopping at epoch 160
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.63143901628448
+num_labeled: 60
+Early stopping at epoch 182
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6422326832548757
+num_labeled: 70
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6478585995921141
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6519823788546255
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6552315608919382
+num_labeled: 100
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6542443064182194
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6585956416464891
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6592178770949721
+num_labeled: 130
+Early stopping at epoch 165
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6636490250696379
+num_labeled: 140
+Early stopping at epoch 168
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6640817765244976
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6640790402258292
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6652467163649273
+num_labeled: 170
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6626204926811853
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15913217309497607
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5969405905371754
+num_labeled: 20
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6337448559670782
+num_labeled: 30
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.627681660899654
+num_labeled: 40
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6091144868469803
+num_labeled: 50
+Early stopping at epoch 157
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5804665875840253
+num_labeled: 60
+Early stopping at epoch 157
+f1_val_isr: 0.6
+f1_test_isr: 0.5873078439101301
+num_labeled: 70
+Early stopping at epoch 158
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5989767807949626
+num_labeled: 80
+Early stopping at epoch 174
+f1_val_isr: 0.6
+f1_test_isr: 0.621486330381209
+num_labeled: 90
+Early stopping at epoch 156
+f1_val_isr: 0.6
+f1_test_isr: 0.6210363495746327
+num_labeled: 100
+Early stopping at epoch 163
+f1_val_isr: 0.6
+f1_test_isr: 0.631056848531095
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.6279245283018868
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.6387947269303202
+num_labeled: 130
+Early stopping at epoch 155
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6331428571428571
+num_labeled: 140
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6328725038402458
+num_labeled: 150
+Early stopping at epoch 155
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6295867130166087
+num_labeled: 160
+Early stopping at epoch 154
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6282151208106002
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6364692218350754
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15650014936609744
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5567081604426003
+num_labeled: 20
+Early stopping at epoch 174
+f1_val_isr: 0.6
+f1_test_isr: 0.4880590534085975
+num_labeled: 30
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5878084179970973
+num_labeled: 40
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5784735812133072
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.5819032761310452
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.5637096774193547
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.5591752577319588
+num_labeled: 80
+Early stopping at epoch 189
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5651815181518153
+num_labeled: 90
+Early stopping at epoch 213
+f1_val_isr: 0.8
+f1_test_isr: 0.5649108253836583
+num_labeled: 100
+Early stopping at epoch 155
+f1_val_isr: 0.8
+f1_test_isr: 0.5766212308963239
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.56541859486748
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.5642766228256257
+num_labeled: 130
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.5744411640657949
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.5736040609137056
+num_labeled: 150
+Early stopping at epoch 156
+f1_val_isr: 0.8
+f1_test_isr: 0.5805907172995781
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.5786802030456853
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.5861486486486486
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.158313774758351
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 217
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5544407283537719
+num_labeled: 20
+Early stopping at epoch 175
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.5825701624815361
+num_labeled: 30
+Early stopping at epoch 184
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.5857627118644068
+num_labeled: 40
+Early stopping at epoch 167
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.5840179238237491
+num_labeled: 50
+Early stopping at epoch 175
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6002198607548552
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6235029940119761
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6162657502863689
+num_labeled: 80
+Early stopping at epoch 162
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5972055888223553
+num_labeled: 90
+Early stopping at epoch 165
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5955276579050608
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6124513618677043
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6294851794071763
+num_labeled: 120
+Early stopping at epoch 169
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6362229102167183
+num_labeled: 130
+Early stopping at epoch 157
+f1_val_isr: 0.8
+f1_test_isr: 0.6356949283778552
+num_labeled: 140
+Early stopping at epoch 166
+f1_val_isr: 0.8
+f1_test_isr: 0.6392233009708738
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6395303326810176
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6380464749901535
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6365437970669837
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15458887066560079
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 176
+f1_val_isr: 0.8571428571428571
+f1_test_isr: 0.6274170274170274
+num_labeled: 20
+Early stopping at epoch 173
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6111608475082064
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6274984857662023
+num_labeled: 40
+Early stopping at epoch 158
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6320725226633324
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6306250000000001
+num_labeled: 60
+Early stopping at epoch 154
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6286799620132953
+num_labeled: 70
+Early stopping at epoch 166
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6330567964262922
+num_labeled: 80
+Early stopping at epoch 165
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6359536082474226
+num_labeled: 90
+Early stopping at epoch 159
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6357963875205256
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6399210785925683
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6457161759841218
+num_labeled: 120
+Early stopping at epoch 160
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6482896047824643
+num_labeled: 130
+Early stopping at epoch 153
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6500332667997338
+num_labeled: 140
+Early stopping at epoch 153
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6516929265839758
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6534320323014805
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.650911546252532
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6531302876480541
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1576455697087473
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6082312284008796
+num_labeled: 20
+Early stopping at epoch 185
+f1_val_isr: 0.8
+f1_test_isr: 0.6318909306461173
+num_labeled: 30
+Early stopping at epoch 171
+f1_val_isr: 0.6666666666666667
+f1_test_isr: 0.6293103448275862
+num_labeled: 40
+Early stopping at epoch 154
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6280940594059405
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6297872340425532
+num_labeled: 60
+Early stopping at epoch 162
+f1_val_isr: 0.5
+f1_test_isr: 0.6320939334637965
+num_labeled: 70
+Early stopping at epoch 167
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6117241379310345
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.613861386138614
+num_labeled: 90
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6160397444996452
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6258454966180136
+num_labeled: 110
+Early stopping at epoch 166
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6245487364620937
+num_labeled: 120
+Early stopping at epoch 160
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6319569120287254
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6324847615632844
+num_labeled: 140
+Early stopping at epoch 165
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6339541547277937
+num_labeled: 150
+Early stopping at epoch 156
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6394849785407725
+num_labeled: 160
+Early stopping at epoch 169
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6462315182113236
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.6429090909090908
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15662148875930962
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6294536817102138
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.6353217749044959
+num_labeled: 30
+Early stopping at epoch 183
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6421686746987952
+num_labeled: 40
+Early stopping at epoch 152
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6600953895071542
+num_labeled: 50
+Early stopping at epoch 166
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6626236833705714
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6693095474066731
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6586506346025383
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.64743807261622
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.7142857142857143
+f1_test_isr: 0.6539639333106498
+num_labeled: 100
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.654843110504775
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6600479287915098
+num_labeled: 120
+Early stopping at epoch 180
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6611796982167353
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6646090534979423
+num_labeled: 140
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6643717728055077
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6655136630923556
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6678212677519917
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6682926829268292
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15648646115104423
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5172932330827068
+num_labeled: 20
+Early stopping at epoch 193
+f1_val_isr: 0.6
+f1_test_isr: 0.532129963898917
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5499072356215214
+num_labeled: 40
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5536306671581276
+num_labeled: 50
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5468692108188218
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.546427206725258
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5521280749707146
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5435897435897435
+num_labeled: 90
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5443087829854273
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5496794871794872
+num_labeled: 110
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5408450704225352
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5493354812726541
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5582699239086905
+num_labeled: 140
+Early stopping at epoch 171
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5616987179487178
+num_labeled: 150
+Early stopping at epoch 160
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.562826174227218
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.5663082437275986
+num_labeled: 170
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.5698368483883803
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15456403299722074
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5788812067881836
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.5358919687277895
+num_labeled: 30
+Early stopping at epoch 159
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5580461692873872
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5671313279530448
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5552539744086856
+num_labeled: 60
+Early stopping at epoch 158
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5855072463768116
+num_labeled: 70
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6015311702515495
+num_labeled: 80
+Early stopping at epoch 155
+f1_val_isr: 0.8
+f1_test_isr: 0.6170678336980306
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6209912536443148
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6152158010241405
+num_labeled: 110
+Early stopping at epoch 156
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6136865342163355
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6265754411235146
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6260043827611396
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6255994098118776
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6317343173431734
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6308032424465733
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6348501664816869
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1527918629750651
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 188
+num_labeled: 10
+Early stopping at epoch 258
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.5385169186465082
+num_labeled: 20
+Early stopping at epoch 179
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.45221052631578945
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.3524940617577197
+num_labeled: 40
+Early stopping at epoch 166
+f1_val_isr: 0.4
+f1_test_isr: 0.3626666666666667
+num_labeled: 50
+Early stopping at epoch 159
+f1_val_isr: 0.5454545454545454
+f1_test_isr: 0.3969534050179211
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.4
+f1_test_isr: 0.44752121482804824
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.5
+f1_test_isr: 0.49378330373001783
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5227174383383817
+num_labeled: 90
+Early stopping at epoch 157
+f1_val_isr: 0.5
+f1_test_isr: 0.544839255499154
+num_labeled: 100
+Early stopping at epoch 169
+f1_val_isr: 0.5
+f1_test_isr: 0.5569937369519833
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.2857142857142857
+f1_test_isr: 0.5511339323919554
+num_labeled: 120
+Early stopping at epoch 162
+f1_val_isr: 0.2857142857142857
+f1_test_isr: 0.5494880546075085
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.2857142857142857
+f1_test_isr: 0.557390936044049
+num_labeled: 140
+Early stopping at epoch 155
+f1_val_isr: 0.5
+f1_test_isr: 0.5607876712328768
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.2857142857142857
+f1_test_isr: 0.5650874946649594
+num_labeled: 160
+Early stopping at epoch 155
+f1_val_isr: 0.5
+f1_test_isr: 0.5734980826587132
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.5
+f1_test_isr: 0.5753542292829539
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.14974425351378265
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5911477869467368
+num_labeled: 20
+Early stopping at epoch 165
+f1_val_isr: 0.8
+f1_test_isr: 0.5572217837411209
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.44594594594594594
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.445371142618849
+num_labeled: 50
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.47951807228915666
+num_labeled: 60
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5185764567852953
+num_labeled: 70
+Early stopping at epoch 157
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5481591669765713
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5390539053905391
+num_labeled: 90
+Early stopping at epoch 155
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5545147995503934
+num_labeled: 100
+Early stopping at epoch 158
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5566778900112234
+num_labeled: 110
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5621500559910414
+num_labeled: 120
+Early stopping at epoch 154
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5604477611940298
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5615874204417821
+num_labeled: 140
+Early stopping at epoch 163
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5603024574669186
+num_labeled: 150
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5639069057611599
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5715370018975332
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5687022900763359
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15913681069343755
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6531001589825121
+num_labeled: 20
+Early stopping at epoch 299
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6080940850916638
+num_labeled: 30
+Early stopping at epoch 156
+f1_val_isr: 0.6153846153846153
+f1_test_isr: 0.6287425149700598
+num_labeled: 40
+Early stopping at epoch 170
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6421052631578947
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7692307692307692
+f1_test_isr: 0.6478688524590164
+num_labeled: 60
+Early stopping at epoch 155
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.649673202614379
+num_labeled: 70
+Early stopping at epoch 156
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6514247846255798
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6516476126429052
+num_labeled: 90
+Early stopping at epoch 167
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6522765598650928
+num_labeled: 100
+Early stopping at epoch 171
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6535192111526691
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6552901023890785
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6573091407052378
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6563467492260062
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6542056074766356
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.6529616724738676
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6566852367688022
+num_labeled: 170
+Early stopping at epoch 166
+f1_val_isr: 0.8333333333333334
+f1_test_isr: 0.6575821104122991
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.14935799508253336
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.508347245409015
+num_labeled: 20
+Early stopping at epoch 158
+f1_val_isr: 0.6
+f1_test_isr: 0.6302816901408451
+num_labeled: 30
+Early stopping at epoch 206
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6129816036098578
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.6126865671641791
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5987748851454824
+num_labeled: 60
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.5899843505477308
+num_labeled: 70
+Early stopping at epoch 154
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5888845092629089
+num_labeled: 80
+Early stopping at epoch 160
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5944248135060856
+num_labeled: 90
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5971082454083626
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.60390625
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6062745098039216
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6111762407190309
+num_labeled: 130
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6145996860282575
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6153241650294695
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6131212723658053
+num_labeled: 160
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6140979689366786
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.6151381657989587
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15440964140314767
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5911257792445912
+num_labeled: 20
+Early stopping at epoch 162
+f1_val_isr: 0.8
+f1_test_isr: 0.5457612821594264
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.5220713073005093
+num_labeled: 40
+Early stopping at epoch 160
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.530789245446661
+num_labeled: 50
+Early stopping at epoch 162
+f1_val_isr: 0.8
+f1_test_isr: 0.5117753623188406
+num_labeled: 60
+Early stopping at epoch 162
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.5427574171029669
+num_labeled: 70
+Early stopping at epoch 172
+f1_val_isr: 0.8
+f1_test_isr: 0.5471284524331433
+num_labeled: 80
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.546731022378236
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.5575916230366492
+num_labeled: 100
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.5560848852317021
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5575183110728135
+num_labeled: 120
+Early stopping at epoch 162
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5619621342512908
+num_labeled: 130
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.566766852726492
+num_labeled: 140
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5689802913453298
+num_labeled: 150
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5672287073065283
+num_labeled: 160
+Early stopping at epoch 166
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5751183814033577
+num_labeled: 170
+Early stopping at epoch 176
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5790838375108038
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1598917518056372
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6520900321543408
+num_labeled: 20
+Early stopping at epoch 170
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6124905944319037
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5975135975135976
+num_labeled: 40
+Early stopping at epoch 153
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5942086473621578
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5697722567287785
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5517826825127334
+num_labeled: 70
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5477815699658702
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5398613518197574
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5434027777777778
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5448215839860748
+num_labeled: 110
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5475982532751092
+num_labeled: 120
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5622559652928416
+num_labeled: 130
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5668402777777778
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5735294117647058
+num_labeled: 150
+Early stopping at epoch 156
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5807841447651875
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5914529914529915
+num_labeled: 170
+Early stopping at epoch 159
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.59186295503212
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15593823224622919
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5923687193048734
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6041666666666665
+num_labeled: 30
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6049004594180706
+num_labeled: 40
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6036001531980084
+num_labeled: 50
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6107046592221795
+num_labeled: 60
+Early stopping at epoch 152
+f1_val_isr: 0.6
+f1_test_isr: 0.6017014694508894
+num_labeled: 70
+Early stopping at epoch 152
+f1_val_isr: 0.4444444444444444
+f1_test_isr: 0.5750825082508251
+num_labeled: 80
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5992094861660079
+num_labeled: 90
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.6048192771084338
+num_labeled: 100
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.6147798742138365
+num_labeled: 110
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.618524332810047
+num_labeled: 120
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.6300940438871474
+num_labeled: 130
+Early stopping at epoch 153
+f1_val_isr: 0.6
+f1_test_isr: 0.631041257367387
+num_labeled: 140
+Early stopping at epoch 181
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6349705304518665
+num_labeled: 150
+Early stopping at epoch 151
+f1_val_isr: 0.8
+f1_test_isr: 0.635897435897436
+num_labeled: 160
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6398739164696613
+num_labeled: 170
+Early stopping at epoch 153
+f1_val_isr: 0.8
+f1_test_isr: 0.6418678274633954
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.15825507643890718
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5896084337349399
+num_labeled: 20
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.6320409656181419
+num_labeled: 30
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.636098981077147
+num_labeled: 40
+Early stopping at epoch 168
+f1_val_isr: 0.6
+f1_test_isr: 0.6377245508982037
+num_labeled: 50
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6435045317220542
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6511283758786535
+num_labeled: 70
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6456456456456456
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6471251409244645
+num_labeled: 90
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.645699128457749
+num_labeled: 100
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6458492003046459
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6480275756415166
+num_labeled: 120
+Early stopping at epoch 171
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6482546988876102
+num_labeled: 130
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6466281310211947
+num_labeled: 140
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6463084654039427
+num_labeled: 150
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6485858194498255
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6472189809412681
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6489652479500194
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1576932909578139
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5798771121351767
+num_labeled: 20
+Early stopping at epoch 294
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.646554679465204
+num_labeled: 30
+Early stopping at epoch 152
+f1_val_isr: 0.8
+f1_test_isr: 0.6188524590163934
+num_labeled: 40
+Early stopping at epoch 161
+f1_val_isr: 0.8
+f1_test_isr: 0.6011883956658511
+num_labeled: 50
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.5992882562277579
+num_labeled: 60
+Early stopping at epoch 159
+f1_val_isr: 0.9090909090909091
+f1_test_isr: 0.599078341013825
+num_labeled: 70
+Early stopping at epoch 157
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6156008432888264
+num_labeled: 80
+Early stopping at epoch 162
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6145212206243422
+num_labeled: 90
+Early stopping at epoch 154
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6184486373165619
+num_labeled: 100
+Early stopping at epoch 161
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6236933797909409
+num_labeled: 110
+Early stopping at epoch 155
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6237762237762238
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6251319957761351
+num_labeled: 130
+Early stopping at epoch 166
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6252220248667851
+num_labeled: 140
+Early stopping at epoch 152
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6301174795300819
+num_labeled: 150
+Early stopping at epoch 176
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.63274811895378
+num_labeled: 160
+Early stopping at epoch 161
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6321094312455003
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6319218241042345
+start loading J01Network
+start constructing adj
+===== 1. The modularity-based feature augmentation. =====
+the modularity of community is 0.1563766686618101
+===== 2. The k-core-based feature augmentation. =====
+current seed is 300
+Early stopping at epoch 192
+num_labeled: 10
+Early stopping at epoch 151
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6601371204701273
+num_labeled: 20
+Early stopping at epoch 209
+f1_val_isr: 0.6
+f1_test_isr: 0.588375796178344
+num_labeled: 30
+Early stopping at epoch 267
+f1_val_isr: 0.7272727272727272
+f1_test_isr: 0.6021335440537336
+num_labeled: 40
+Early stopping at epoch 178
+f1_val_isr: 0.8
+f1_test_isr: 0.6009353078721746
+num_labeled: 50
+Early stopping at epoch 180
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6150216279984271
+num_labeled: 60
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6027397260273972
+num_labeled: 70
+Early stopping at epoch 154
+f1_val_isr: 0.6
+f1_test_isr: 0.5903664059283654
+num_labeled: 80
+Early stopping at epoch 152
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.5884808013355592
+num_labeled: 90
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.5946169772256729
+num_labeled: 100
+Early stopping at epoch 151
+f1_val_isr: 0.6
+f1_test_isr: 0.592931392931393
+num_labeled: 110
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6016528925619835
+num_labeled: 120
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6043819760231501
+num_labeled: 130
+Early stopping at epoch 160
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6050769870994591
+num_labeled: 140
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.605427974947808
+num_labeled: 150
+Early stopping at epoch 168
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.603852596314908
+num_labeled: 160
+Early stopping at epoch 153
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6000842815002106
+num_labeled: 170
+Early stopping at epoch 151
+f1_val_isr: 0.6666666666666666
+f1_test_isr: 0.6019417475728155

@@ -2,8 +2,11 @@ import pandas as pd
 import numpy as np
 
 def process_file(file_path):
-    df = pd.read_csv(file_path, delimiter=' ', header=None, names=['user_no', 'label'])
-    df['user_no'] += 1
+    df = pd.read_csv(file_path, delimiter=' ', names=['user_no', 'label'])
+    df['user_no'] = df['user_no'].astype(int)+1
+    df['label'] = df['label'].astype(int)
+    # df['user_no'] = df['user_no'].astype(int)
+    # df['label'] = df['label'].astype(int)
     return df
 
 
@@ -19,6 +22,7 @@ def process_file(file_path):
 
 
 # 合并数据集
+# combined_df = process_file('UserLabel.txt')
 combined_df = process_file('ProductLabel.txt')
 
 # 随机打乱数据
