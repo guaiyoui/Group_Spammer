@@ -17,3 +17,19 @@ python -u gcn.py --feature_path ../datasets/he_amazon/UserFeature.txt --edge_lis
 python -u gcn.py --feature_path ../datasets/he_amazon/UserFeature.txt --edge_list ../datasets/he_amazon/J01Network.txt --train_csv ../datasets/he_amazon/Training_Testing/5percent/train_4.csv --test_csv ../datasets/he_amazon/Training_Testing/5percent/test_4.csv
 
 python -u gcn.py --feature_path ../datasets/he_amazon/UserFeature_noID.txt --edge_list ../datasets/he_amazon/J01Network.txt --train_csv ../datasets/he_amazon/Training_Testing/5percent/train_4.csv --test_csv ../datasets/he_amazon/Training_Testing/5percent/test_4.csv
+
+
+python -u gcn.py --feature_path ../datasets/ali/UserFeature.txt --edge_list ../datasets/ali/J01Network.txt --train_csv ../datasets/ali/Training_Testing/5percent/train_4.csv --test_csv ../datasets/ali/Training_Testing/5percent/test_4.csv
+
+
+python -u gcn.py --feature_path ../datasets/ali/UserFeature.txt --edge_list ../datasets/ali/J01Network.txt --train_csv ../datasets/ali/Training_Testing/10percent/train_4.csv --test_csv ../datasets/ali/Training_Testing/10percent/test_4.csv
+
+python -u gcn.py --feature_path ../datasets/ali/UserFeature.txt --edge_list ../datasets/ali/J01Network.txt --train_csv ../datasets/ali/Training_Testing/30percent/train_4.csv --test_csv ../datasets/ali/Training_Testing/30percent/test_4.csv
+
+python -u gcn.py --feature_path ../datasets/ali/UserFeature.txt --edge_list ../datasets/ali/J01Network.txt --train_csv ../datasets/ali/Training_Testing/50percent/train_4.csv --test_csv ../datasets/ali/Training_Testing/50percent/test_4.csv
+
+
+python -u gcn.py --feature_path ../datasets/amazon_cn/UserFeature.txt --edge_list ../datasets/amazon_cn/J01Network.txt --train_csv ../datasets/amazon_cn/Training_Testing/5percent/train_4.csv --test_csv ../datasets/amazon_cn/Training_Testing/5percent/test_4.csv
+
+
+python -u main.py --feature_path ../datasets/amazon_cn/UserFeature.txt --edge_list ../datasets/amazon_cn/J01Network.txt --train_csv ../datasets/amazon_cn/Training_Testing/5percent/train_4.csv --test_csv ../datasets/amazon_cn/Training_Testing/5percent/test_4.csv

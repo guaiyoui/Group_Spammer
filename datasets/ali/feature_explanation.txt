@@ -1,0 +1,100 @@
+=== Feature Definitions and Calculation Methods ===
+(19 features in total)
+===================================================
+n_reviews:
+    Number of reviews written by the user.
+
+prop_not_na:
+    Proportion of reviews by the user that are not 'n' (not missing or placeholder).
+
+mean_review_len:
+    Mean length of the user's reviews (treating 'n' as length 0).
+
+std_review_len:
+    Standard deviation of the user's review lengths.
+
+min_review_len:
+    Minimum review length for the user.
+
+max_review_len:
+    Maximum review length for the user.
+
+mean_price:
+    Mean price of products reviewed by the user.
+
+std_price:
+    Standard deviation of product prices reviewed by the user.
+
+min_price:
+    Minimum price of products reviewed by the user.
+
+max_price:
+    Maximum price of products reviewed by the user.
+
+mean_seller_age:
+    Mean seller age (in days) at the time of review for products reviewed by the user.
+
+std_seller_age:
+    Standard deviation of seller age (in days) for products reviewed by the user.
+
+min_seller_age:
+    Minimum seller age (in days) for products reviewed by the user.
+
+max_seller_age:
+    Maximum seller age (in days) for products reviewed by the user.
+
+MNR:
+    Maximum number of reviews written by the user in a single day.
+
+ANR:
+    Average number of reviews written by the user per day (on days with at least one review).
+
+NDR:
+    Number of days in which the user wrote at least one review.
+
+ENR:
+    Entropy of the user's review activity over days (measures how evenly reviews are distributed across days).
+
+MeanVar:
+    Mean squared deviation of the user's ratings from the average product rating.
+
+TMF:
+    Trustworthiness measure: for products where the user gave the highest rating, how unique is the user among all such reviewers.
+
+PopRank:
+    Average popularity (number of reviews) of products reviewed by the user.
+
+CatEnt:
+    Entropy of the distribution of product categories reviewed by the user (measures diversity of categories).
+
+BST:
+    Number of days between the user's first and last review.
+
+
+=== Descriptive Statistics ===
+
+                   count unique                               top freq      mean           std  min       25%       50%       75%      max
+n_reviews        36287.0    NaN                               NaN  NaN  0.008775      0.021936  0.0  0.001877   0.00399  0.008449      1.0
+prop_not_na      36287.0    NaN                               NaN  NaN  0.209048      0.318786  0.0       0.0  0.032258  0.285714      1.0
+mean_review_len  36287.0    NaN                               NaN  NaN  0.009806      0.019441  0.0       0.0  0.000812  0.010989      1.0
+std_review_len   35216.0    NaN                               NaN  NaN  0.009852       0.01568  0.0       0.0  0.002939  0.015335      1.0
+min_review_len   36287.0    NaN                               NaN  NaN  0.001256      0.010855  0.0       0.0       0.0       0.0      1.0
+max_review_len   36287.0    NaN                               NaN  NaN  0.028354      0.047176  0.0       0.0  0.007206  0.038431      1.0
+mean_price       36246.0    NaN                               NaN  NaN  0.005951      0.011971  0.0  0.002465   0.00382  0.006226      1.0
+std_price        35150.0    NaN                               NaN  NaN  0.007868       0.01825  0.0  0.001999  0.003617  0.007098      1.0
+min_price        36246.0    NaN                               NaN  NaN  0.000878      0.008189  0.0  0.000178  0.000374  0.000669      1.0
+max_price        36246.0    NaN                               NaN  NaN   0.00524      0.013436  0.0     0.001  0.001947  0.004346      1.0
+mean_seller_age  36237.0    NaN                               NaN  NaN   0.40041      0.101112  0.0  0.341782  0.402137  0.458699      1.0
+std_seller_age   35133.0    NaN                               NaN  NaN  0.306722      0.083458  0.0  0.266468  0.310788  0.353472      1.0
+min_seller_age   36237.0    NaN                               NaN  NaN  0.101746       0.12443  0.0  0.020074  0.055316  0.129963      1.0
+max_seller_age   36237.0    NaN                               NaN  NaN  0.693609      0.153313  0.0  0.614539  0.714849  0.806143      1.0
+MNR              36287.0    NaN                               NaN  NaN  0.029544       0.04205  0.0  0.010101  0.020202  0.040404      1.0
+ANR              36287.0    NaN                               NaN  NaN  0.017068      0.027898  0.0  0.003448  0.010345   0.02122      1.0
+NDR              36287.0    NaN                               NaN  NaN  0.104268      0.115983  0.0  0.032787  0.071038  0.131148      1.0
+ENR              36287.0    NaN                               NaN  NaN  0.473988      0.187258  0.0    0.3672  0.489029  0.600706      1.0
+MeanVar          36287.0    NaN                               NaN  NaN  0.001457      0.012523  0.0       0.0       0.0       0.0      1.0
+TMF              36287.0    NaN                               NaN  NaN  0.114039      0.161668  0.0  0.038462    0.0625  0.111111      1.0
+PopRank          36287.0    NaN                               NaN  NaN  0.018416      0.033768  0.0  0.004027  0.009397   0.01999      1.0
+CatEnt           36287.0    NaN                               NaN  NaN  0.448518      0.191893  0.0  0.339965  0.470603  0.581196      1.0
+BST              36287.0    NaN                               NaN  NaN  0.769819      0.257068  0.0  0.693989  0.863388   0.95082      1.0
+

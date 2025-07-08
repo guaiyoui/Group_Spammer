@@ -9,6 +9,8 @@ from sklearn.metrics import classification_report
 # path = '../Data/'
 # path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/he_amazon/data/network/"
 path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/Group_Spammer/datasets/he_amazon/"
+# path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/Group_Spammer/datasets/ali/"
+# path = "/data1/jianweiw/LLM/Imputation/Fake_review_detection/Fake_Review_Detection/Group_Spammer/datasets/amazon_cn/"
 # rf_features = 'userfeatures2021.txt'#Read User Feature for LR Training
 rf_features = 'UserFeature.txt'#Read User Feature for LR Training
 # rf_label = '5percent/test_4.csv'  #Load Testing data: index and label; You should revise when training data is changed.
@@ -18,12 +20,13 @@ rf_features = 'UserFeature.txt'#Read User Feature for LR Training
 # rf_label = 'Training_Testing/50percent/test_4.csv'  #Load Testing data: index and label; You should revise 
 
 # rf_label = 'Training_Testing/1percent/test_5.csv'  #Load Testing data: index and label; You should revise 
-rf_label = 'Training_Testing/5percent/test_4.csv'
+# rf_label = 'Training_Testing/5percent/test_4.csv'
+rf_label = 'Training_Testing/50percent/test_4.csv'
 
 # when training data is changed.
 
 
-def LR_First(L1, L2, L3):
+def LR_First(L1, L2, L3, rf_label='Training_Testing/50percent/test_4.csv'):
     print("Going to Python.......")
     print(len(L1))
     print("________________________________________")

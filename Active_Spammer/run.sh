@@ -75,3 +75,21 @@ CUDA_VISIBLE_DEVICES=3 nohup python -u run_baselines.py --dataset he_amazon --mo
 
 
 CUDA_VISIBLE_DEVICES=1 python -u run_baselines.py --dataset he_amazon --model GCN_update --epoch 300 --strategy uncertainty --file_io 1 --lr 0.001 --hidden 64 --test_percents 5percent --data_path ../datasets/he_amazon/ --sample_global
+
+
+
+CUDA_VISIBLE_DEVICES=1 python -u run_baselines.py --dataset ali --model GCN_update --epoch 300 --strategy uncertainty --file_io 1 --lr 0.001 --hidden 64 --test_percents 5percent --data_path ../datasets/ali/ --sample_global
+
+
+CUDA_VISIBLE_DEVICES=1 python -u run_baselines.py --dataset ali --model GCN_update --epoch 300 --strategy uncertainty --file_io 1 --lr 0.001 --hidden 64 --test_percents 10percent --data_path ../datasets/ali/ --sample_global
+
+
+CUDA_VISIBLE_DEVICES=1 python -u run_baselines.py --dataset ali --model GCN_update --epoch 300 --strategy uncertainty --file_io 1 --lr 0.001 --hidden 64 --test_percents 30percent --data_path ../datasets/ali/ --sample_global
+
+CUDA_VISIBLE_DEVICES=4 python -u run_baselines.py --dataset ali --model GCN_update --epoch 300 --strategy uncertainty --file_io 1 --lr 0.001 --hidden 64 --test_percents 50percent --data_path ../datasets/ali/ --sample_global
+
+
+CUDA_VISIBLE_DEVICES=5 python run_baselines.py --dataset amazon_cn --model GCN_update --epoch 300 --strategy uncertainty --file_io 1 --lr 0.001 --hidden 64 --test_percents 50percent --data_path ../datasets/amazon_cn/ --sample_global
+
+
+CUDA_VISIBLE_DEVICES=5 python run_baselines.py --dataset he_amazon --model GCN_update --epoch 300 --strategy uncertainty --file_io 1 --lr 0.001 --hidden 64 --test_percents 50percent --data_path ../datasets/he_amazon/ --sample_global

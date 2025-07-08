@@ -1,0 +1,3 @@
+F-measure: 0.7541
+Recall: 0.7541
+Precision: 0.7541

@@ -293,7 +293,7 @@ def test_GCN(model, adj, features, test_mask, test_labels, all_test_idx, all_tes
 
     # print(f'macro_test_all: {macro_test_all}, f1_test_all: {f1_test_all}, macro_test: {macro_test}, f1_test: {f1_test}')
 
-    return macro_test_all, f1_test_all, macro_test, f1_test
+    return macro_test_all, f1_test_all, macro_test, f1_test, recall_test_all, precision_test_all, recall_test, precision_test
 
 
 def ensure_nonrepeat(idx_train, selected_nodes):
@@ -351,7 +351,7 @@ def augment_feature(feature, nx_G):
 
 class run_wrapper():
     def __init__(self, dataset, normalization, cuda):
-        if dataset in ['spammer', 'amazon', 'yelp', 'he_amazon']:
+        if dataset in ['spammer', 'amazon', 'amazon_cn', 'yelp', 'he_amazon', 'ali']:
 
             self.graph = None
             # graph_data = np.loadtxt("../Unsupervised_Spammer_Learning/data_graph/spammer_edge_index.txt", delimiter=' ', dtype=int)
@@ -378,6 +378,7 @@ class run_wrapper():
             num_edges = edge_tensor.shape[0]
             values = torch.ones(num_edges)
             num_nodes = edge_tensor.max().item() + 1
+            self.num_nodes = num_nodes
             adj = torch.sparse_coo_tensor(indices, values, size=(num_nodes, num_nodes))
             adj = adj.coalesce()
             # adj = adj.to('cuda:0')
@@ -393,7 +394,7 @@ class run_wrapper():
             print("start loading features")
             
             features = np.loadtxt(args.data_path+"UserFeature.txt", delimiter='\t')
-            features = augment_feature(features, self.nx_G)
+            # features = augment_feature(features, self.nx_G)
             self.features = torch.from_numpy(features).float().cuda()
 
             print("start loading labels")
@@ -501,6 +502,9 @@ class run_wrapper():
         val_results = {'acc': [], 'micro': [], 'macro': [], 'f1': [], "recall":[], "precision":[]}
         test_results = {'macro_test_all': [], 'f1_test_all': [], 'macro_test': [], 'f1_test': []}
 
+        saving_results = {"nodes_ratio":[], "f1": [], "precision": [], "recall": []}
+        saving_results_all = {"nodes_ratio":[], "f1": [], "precision": [], "recall": []}
+
         uncertainty_results = {}
         if strategy == 'rw':
             self.walks = remove_nodes_from_walks(self.walks, selected_nodes)
@@ -569,7 +573,7 @@ class run_wrapper():
                                                                              args.dropout)
             print(f"the number of labels is {num_labeled_list[i]}")
             if args.model == 'GCN_update':
-                macro_test_all, f1_test_all, macro_test, f1_test = test_GCN(model, self.adj, self.features, test_idx_in_test, self.labels[test_idx_in_test], all_test_idx, self.labels[all_test_idx], save_name=args.test_percents, dataset_name=args.dataset, sample_global=args.sample_global)
+                macro_test_all, f1_test_all, macro_test, f1_test, recall_test_all, precision_test_all, recall_test, precision_test = test_GCN(model, self.adj, self.features, test_idx_in_test, self.labels[test_idx_in_test], all_test_idx, self.labels[all_test_idx], save_name=args.test_percents, dataset_name=args.dataset, sample_global=args.sample_global)
             
 
             # print('f1_val_isr: {}'.format(f1_val))
@@ -585,8 +589,18 @@ class run_wrapper():
             test_results['macro_test'].append(macro_test)
             test_results['f1_test'].append(f1_test)
 
+            saving_results['nodes_ratio'].append(num_labeled_list[i] / self.num_nodes)
+            saving_results['f1'].append(f1_test)
+            saving_results['precision'].append(precision_test)
+            saving_results['recall'].append(recall_test)
+
+            saving_results_all['nodes_ratio'].append(num_labeled_list[i] / self.num_nodes)
+            saving_results_all['f1'].append(f1_test_all)
+            saving_results_all['precision'].append(precision_test_all)
+            saving_results_all['recall'].append(recall_test_all)
+
         # print('AL Time: {}s'.format(time_AL))
-        return val_results, test_results, get_classes_statistic(self.labels[selected_nodes].cpu().numpy()), time_AL
+        return val_results, test_results, get_classes_statistic(self.labels[selected_nodes].cpu().numpy()), time_AL, saving_results, saving_results_all
 
 
 
@@ -594,18 +608,27 @@ if __name__ == '__main__':
 
     if args.dataset == 'spammer':
         num_labeled_list = [i for i in range(10,151,10)]
-    elif args.dataset == 'amazon':
+    elif args.dataset == 'amazon_cn':
         if args.test_percents in ['50percent', '30percent', '10percent']:
             num_labeled_list = [i for i in range(10,721,10)]
         else:
-            num_labeled_list = [i for i in range(10,401,10)]
+            num_labeled_list = [i for i in range(10,2000,10)]
     elif args.dataset == 'yelp':
         num_labeled_list = [10, 20, 30, 40] + [i for i in range(50,1001,50)]
     elif args.dataset == 'he_amazon':
         if args.test_percents in ['50percent', '30percent', '10percent']:
-            num_labeled_list = [i for i in range(10,341,10)]
+            num_labeled_list = [i for i in range(10,1704,10)]
         else:
-            num_labeled_list = [i for i in range(10,171,10)]
+            num_labeled_list = [i for i in range(10,1704,10)]
+    elif args.dataset == 'ali':
+        if args.test_percents in ['50percent']:
+            num_labeled_list = [i for i in range(10,1000,10)]
+        elif args.test_percents in ['30percent']:
+            num_labeled_list = [i for i in range(10,600,10)]
+        elif args.test_percents in ['10percent']:
+            num_labeled_list = [i for i in range(10,200,10)]
+        else:
+            num_labeled_list = [i for i in range(10,1000,10)]
     num_interval = len(num_labeled_list)
 
     val_results = {'micro': [[] for _ in range(num_interval)],
@@ -635,9 +658,10 @@ if __name__ == '__main__':
     wrapper = run_wrapper(args.dataset, args.normalization, args.cuda)
 
     total_AL_time = 0
+
     for i in range(len(seeds)):
         print('current seed is {}'.format(seeds[i]))
-        val_dict, test_dict, classes_dict, cur_AL_time = wrapper.run(args.strategy, num_labeled_list=num_labeled_list,
+        val_dict, test_dict, classes_dict, cur_AL_time, saving_results, saving_results_all = wrapper.run(args.strategy, num_labeled_list=num_labeled_list,
                                                                      seed=seeds[i])
 
         for metric in ['micro', 'macro', 'acc', 'f1', 'recall', 'precision']:
@@ -647,6 +671,15 @@ if __name__ == '__main__':
         for metric in ['macro_test_all', 'f1_test_all', 'macro_test', 'f1_test']:
             for j in range(len(test_dict[metric])):
                 test_results[metric][j].append(test_dict[metric][j])
+
+        saving_results_path = f"../detection_results/{args.dataset}/isr_seed_{seeds[i]}_results.csv"
+        saving_results_all_path = f"../detection_results/{args.dataset}/isr_seed_{seeds[i]}_results_global.csv"
+
+        df = pd.DataFrame(saving_results)
+        df.to_csv(saving_results_path, index=False)
+
+        df = pd.DataFrame(saving_results_all)
+        df.to_csv(saving_results_all_path, index=False)
 
         total_AL_time += cur_AL_time
 

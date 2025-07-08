@@ -80,7 +80,8 @@ if __name__ == "__main__":
 
     # 从 feature.txt 中加载特征
     features = np.loadtxt(args.feature_path, delimiter='\t')
-
+    percentage = str(args.train_csv).split("/")[4]
+    
     # 读取训练和测试数据
     train_indices, y_train = load_data(args.train_csv)
     test_indices, y_test = load_data(args.test_csv)
@@ -111,8 +112,8 @@ if __name__ == "__main__":
     target_dir = os.path.join("../detection_results", dataset_name)
     os.makedirs(target_dir, exist_ok=True)
 
-    output_path = os.path.join(target_dir, "random_forest_predictions.txt")
-    metrics_path = os.path.join(target_dir, "random_forest_metrics.txt")
+    output_path = os.path.join(target_dir, f"{percentage}_random_forest_predictions.txt")
+    metrics_path = os.path.join(target_dir, f"{percentage}_random_forest_metrics.txt")
 
     np.savetxt(output_path, output_data, fmt='%d', delimiter='\t', 
                header='sample_index\tprediction', comments='')

@@ -29,11 +29,12 @@ combined_df = process_file('ProductLabel.txt')
 combined_df = combined_df.sample(frac=1, random_state=42).reset_index(drop=True)
 
 # 计算5%的数量
-train_size = int(len(combined_df) * 0.50)
+train_size = int(len(combined_df) * 0.45)
 
 # 分割数据
 new_train_df = combined_df.iloc[:train_size]
 new_test_df = combined_df.iloc[train_size:]
+
 
 # 按 user_id 排序
 new_train_df = new_train_df.sort_values('user_no')
@@ -47,7 +48,7 @@ print(new_train_df['label'].value_counts())
 print(new_test_df['label'].value_counts())
 
 # 保存到新的CSV文件，不包含索引，使用空格作为分隔符
-new_train_df.to_csv('./Training_Testing/50percent/train_4.csv', index=False, sep=' ', header=False)
-new_test_df.to_csv('./Training_Testing/50percent/test_4.csv', index=False, sep=' ', header=False)
+new_train_df.to_csv('./Training_Testing/45percent/train_4.csv', index=False, sep=' ', header=False)
+new_test_df.to_csv('./Training_Testing/45percent/test_4.csv', index=False, sep=' ', header=False)
 
 print(f"处理完成。训练集大小: {len(new_train_df)}, 测试集大小: {len(new_test_df)}")

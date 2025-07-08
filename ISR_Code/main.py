@@ -2,10 +2,25 @@ import math
 import random
 import time
 import os
+import argparse
+import pandas as pd
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--feature_path', type=str, required=True, help='Path to feature.txt')
+parser.add_argument('--train_csv', type=str, required=True, help='Path to training csv file')
+parser.add_argument('--test_csv', type=str, required=True, help='Path to testing csv file')
+parser.add_argument('--edge_list', type=str, required=True,help='Path to graph edge list file')
+args = parser.parse_args()
+
+df_train = pd.read_csv(args.train_csv, sep=" ", header=None, names=["sample_index", "label"])
+df_test = pd.read_csv(args.test_csv, sep=" ", header=None, names=["sample_index", "label"])
+
+percentage = str(args.train_csv).split("/")[4]
 
 # Global Parameters (set according to your dataset)
-labLen = 85           # Number of labeled users (e.g., 1%)
-unLen = 9424          # Total number of users
+labLen = df_train.shape[0]*2          # Number of labeled users (e.g., 1%) 85
+unLen = df_test.shape[0]*2            # Total number of users 9424
 MAXEDGES = 3000000    # Maximum number of network edges
 ClassNum = 2
 
@@ -14,6 +29,7 @@ DD = 1                # Weight d default (e.g., 1)
 LL = 0                # Weight Lambda
 MAXITTOTAL = 10       # Maximum total iterations
 THRESHOLD = 0.5       # Spam probability threshold for crisp label assignment
+rlabel = f'Training_Testing/{percentage}/test_4.csv'
 
 # Global arrays
 # For ease of matching the C++ indexing (1-indexed), index 0 will be unused.
@@ -57,7 +73,7 @@ def python_lr_invoke(Index, pLabel, iWeight):
         print("Module python2c not found!")
         return -1
 
-    ret = python2c.LR_First(Index, pLabel, iWeight)
+    ret = python2c.LR_First(Index, pLabel, iWeight, rlabel)
     if ret is None:
         return 0
     resIndex, resSpamPro = ret
@@ -86,7 +102,8 @@ def initialization():
 
     # Read training file
     # train_path = os.path.join("dataset", "5percent", "train_4.csv")
-    train_path = "../Data/Training_Testing/5percent/train_5.csv"
+    # train_path = "../Data/Training_Testing/5percent/train_5.csv"
+    train_path = args.train_csv
     try:
         with open(train_path, "r") as fin1:
             train_lines = fin1.readlines()
@@ -115,7 +132,8 @@ def initialization():
 
     # Read test file
     # test_path = os.path.join("dataset", "5percent", "test_4.csv")
-    test_path = "../Data/Training_Testing/5percent/test_5.csv"
+    # test_path = "../Data/Training_Testing/5percent/test_5.csv"
+    test_path = args.test_csv
     try:
         with open(test_path, "r") as fin4:
             test_lines = fin4.readlines()
@@ -138,7 +156,8 @@ def initialization():
 
     # Read neighbor file (assumes file is sorted by userID)
     # neighbor_path = os.path.join("dataset", "jaccard0.2.txt")
-    neighbor_path = "../Data/jaccard0.2.txt"
+    # neighbor_path = "../Data/jaccard0.2.txt"
+    neighbor_path = args.edge_list
     try:
         with open(neighbor_path, "r") as fin3:
             neighbor_lines = fin3.readlines()
@@ -589,6 +608,34 @@ def Output_to_File(k):
     except IOError:
         print(f"Could not write to {file_name}")
 
+
+def SaveResults():
+    output_path = f"../detection_results/amazon_cn/{percentage}_isr_predictions.txt"
+    tp = fn = fp = tn = 0
+    with open(output_path, "w") as fout:
+        fout.write("sample_index\tprediction\n")
+        for i in range(1, unLen + 1):
+            user = UnUPM[i]
+            if user.shill == -1:
+                if user.tempLab == 1 and UnLabels[i] == 1:
+                    tp += 1
+                if user.tempLab == 0 and UnLabels[i] == 1:
+                    fn += 1
+                if user.tempLab == 1 and UnLabels[i] == 0:
+                    fp += 1
+                if user.tempLab == 0 and UnLabels[i] == 0:
+                    tn += 1
+                fout.write(f"{i}\t{user.tempLab}\n")
+    
+    output_path_metrics = f"../detection_results/amazon_cn/{percentage}_isr_metrics.txt"
+
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+    f_measure = 2 * recall * precision / (recall + precision) if (recall + precision) > 0 else 0
+
+    with open(output_path_metrics, 'w') as f_out:
+        f_out.write(f"F-measure: {f_measure:.4f}\nRecall: {recall:.4f}\nPrecision: {precision:.4f}\n")
+    print(f"Saved evaluation metrics to {output_path_metrics}")
 # ----------------- Function: control -----------------
 def control(lambd, d):
     initialization()
@@ -602,6 +649,7 @@ def control(lambd, d):
         IterNum += 1
         print("Iteration Number:", IterNum, ", Loss:", Loss)
         Output_to_File(IterNum)
+        SaveResults()
 
 # ----------------- Main -----------------
 if __name__ == "__main__":

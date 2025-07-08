@@ -62,7 +62,7 @@ def load_data(csv_path):
     其中 sample_index 从 1 开始，因此转换为 0 索引。
     """
     df = pd.read_csv(csv_path, sep=" ", header=None, names=["sample_index", "label"])
-    print(df)
+    # print(df)
     indices = df["sample_index"].astype(int).values - 1  # 将字符串转换为 int 后再减1
     labels = df["label"].astype(int).values
     return indices, labels
@@ -79,6 +79,7 @@ if __name__ == "__main__":
     if torch.cuda.is_available():
         torch.cuda.manual_seed(args.seed)
     
+    percentage = str(args.train_csv).split("/")[4]
     # 从 feature.txt 中加载特征
     features = np.loadtxt(args.feature_path, delimiter='\t')
     
@@ -122,8 +123,8 @@ if __name__ == "__main__":
     target_dir = os.path.join("../detection_results", dataset_name)
     os.makedirs(target_dir, exist_ok=True)
 
-    output_path = os.path.join(target_dir, "xgb_predictions.txt")
-    metrics_path = os.path.join(target_dir, "xgb_metrics.txt")
+    output_path = os.path.join(target_dir, f"{percentage}_xgb_predictions.txt")
+    metrics_path = os.path.join(target_dir, f"{percentage}_xgb_metrics.txt")
 
     np.savetxt(output_path, output_data, fmt='%d', delimiter='\t', 
                header='sample_index\tprediction', comments='')

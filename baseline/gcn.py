@@ -151,7 +151,8 @@ if __name__ == "__main__":
     features_np = np.loadtxt(args.feature_path, delimiter='\t')
     num_nodes, nfeat = features_np.shape
     features = torch.FloatTensor(features_np)
-    
+    percentage = str(args.train_csv).split("/")[4]
+
     # 读取图边列表并构造归一化邻接矩阵
     edges = load_edge_list(args.edge_list)
     adj = build_adj(edges, num_nodes)
@@ -213,8 +214,8 @@ if __name__ == "__main__":
     target_dir = os.path.join("../detection_results", dataset_name)
     os.makedirs(target_dir, exist_ok=True)
 
-    output_path = os.path.join(target_dir, "gcn_predictions.txt")
-    metrics_path = os.path.join(target_dir, "gcn_metrics.txt")
+    output_path = os.path.join(target_dir, f"{percentage}_gcn_predictions.txt")
+    metrics_path = os.path.join(target_dir, f"{percentage}_gcn_metrics.txt")
 
     np.savetxt(output_path, output_data, fmt='%d', delimiter='\t', 
                header='sample_index\tprediction', comments='')
